@@ -19,7 +19,7 @@ Dokumentation und tatsächliche Erreichbarkeit sind unterschiedliche Prüfungen.
 
 Der alte Suchpfad `/v1/search` wurde laut Museum zum 01.10.2026 abgekündigt. Die App nutzt den neuen paginierten Suchpfad. Suchbegriffe stammen aus einer kleinen kuratierten Liste; es wird kein persönliches Profil erstellt. Eine Suchantwort wird zeitweise im Arbeitsspeicher wiederverwendet. Die App sendet keine Cookies an den Dienst.
 
-Ein erfolgreicher Browsertest lieferte das Objekt **547976**, „Drawing“, mit einem Bild unter `images.metmuseum.org`, das mit 599 Pixeln natürlicher Breite geladen wurde. Dieser konkrete Test belegt Datenabruf und Bilddarstellung; es ist keine Behauptung über die Verfügbarkeit sämtlicher Museumseinträge.
+Ein erfolgreicher Browsertest in der Vorschau lieferte das Objekt **547976**, „Drawing“, mit einem Bild unter `images.metmuseum.org`, das mit 599 Pixeln natürlicher Breite geladen wurde. Nach Veröffentlichung gelang vom GitHub-Pages-Ursprung ein weiterer echter Abruf: Objekt **502724**, „Ensuranai“, mit geladenem Bild (401 Pixel natürliche Breite). Dieser konkrete Test belegt Datenabruf und Bilddarstellung; es ist keine Behauptung über die Verfügbarkeit sämtlicher Museumseinträge.
 
 ## Primärdokumentation
 

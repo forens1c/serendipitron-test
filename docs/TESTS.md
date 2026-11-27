@@ -20,19 +20,25 @@ Die automatisierten Provider- und Offline-Tests verwenden kontrollierte Antworte
 - Finale schmale Ansichten bei **337 und 449 CSS-Pixeln** per Browserzoom: kein horizontaler Seitenüberlauf. Bei 337 Pixeln Fund per Enter geöffnet und Lesedialog ohne Überlauf. Dies sind CSS-Layouttests, keine iPhone-Emulation.
 - Echter Browser-Dateiexport; Testsammlung anschließend geleert und per Dateiauswahl wieder importiert: beide Funde wieder vorhanden.
 
-## Veröffentlichungsstand
+## Veröffentlichung und Live-Prüfung
 
-Das Repository `forens1c/serendipitron-test` wurde privat angelegt. GitHub zeigt für Pages ausdrücklich „Upgrade or make this repository public to enable Pages“. Ohne kostenpflichtiges Upgrade ist daher die noch ausstehende Freigabe des Auftraggebers zur öffentlichen Sichtbarkeit erforderlich. Es wurde keine Sichtbarkeitsänderung vorgenommen.
+**Erfolgreich veröffentlicht am 27.11.2026.**
 
-## Vor Veröffentlichung noch offen
-
-- GitHub-Pages-Build, Deployment-Status und echte HTTPS-Erreichbarkeit.
-- Erneute Bedien- und Darstellungsprüfung der veröffentlichten URL.
+- URL: **https://forens1c.github.io/serendipitron-test/**
+- Repository: **https://github.com/forens1c/serendipitron-test** · öffentlich nach ausdrücklicher Freigabe.
+- GitHub Pages: `main` / Projektstamm, HTTPS erzwungen.
+- Erster Deployment-Lauf: [46009193491](https://github.com/forens1c/serendipitron-test/actions/runs/46009193491), Status **Success**, Build und Deploy erfolgreich, Gesamtdauer 38 Sekunden. Getesteter Anwendungsstand: `8c4fdcc4e58a25ef852c1ed5e2f6f0b8f3aea75f`.
+- Zusätzlicher HTTPS-Abruf: Startseite **HTTP 200**, sämtliche **37 Laufzeitdateien HTTP 200** und bytegenau identisch mit dem getesteten lokalen Stand. TLS-Zertifikate wurden beim Abruf regulär geprüft.
+- Nach Veröffentlichung im Chromium-Browser erneut geprüft: Münzausgabe, Einzelfund, CHAOS mit drei unterschiedlichen Fächern, Quellen-/Fiktionskennzeichnung, Speichern und Erhalten der Wunderkammer nach Neuladen sowie Suche.
+- Echtes Live-Museumsfenster vom GitHub-Pages-Ursprung: Met-Objekt **502724**, „Ensuranai“, mit Katalogdaten und geladenem Bild (natürliche Bildbreite 401 Pixel).
+- Öffentliche Seite bei **337 und 449 CSS-Pixeln** geprüft: kein horizontaler Überlauf; Fundkarte per Tastatur geöffnet, Dialog und eigene Illustration geladen.
+- Der öffentliche Browser bestätigt eine **bereitstehende Offline-Kopie**. Das belegt die Aktivierung des Service Workers, ersetzt aber keinen Offline-Wiederbesuch auf einem echten Mobilgerät.
+- Abschließende Dokumentationsänderungen verändern keine Laufzeitdateien.
 
 ## Nicht durchgeführt
 
 - Test auf einem **echten iPhone oder in Safari/WebKit**.
-- Erfolgreicher echter Offline-Wiederbesuch: Beim kontrollierten Abschalten des Vorschau-Ursprungs gelangte die Cloud-Browserumgebung in eine nicht automatisierbare Browserfehlerseite. Der Ende-zu-Ende-Offline-Nachweis ist deshalb **nicht erbracht**; die separaten Worker-Tests bestehen. Offline-Bereitschaft wird nun in den Einstellungen ausdrücklich angezeigt. Ein Wiederholungstest durch Umgehung der Browserrichtlinie wurde nicht vorgenommen.
+- Erfolgreicher echter Offline-Wiederbesuch: Beim kontrollierten Abschalten des Vorschau-Ursprungs gelangte die Cloud-Browserumgebung in eine nicht automatisierbare Browserfehlerseite. Der Ende-zu-Ende-Offline-Nachweis ist deshalb **nicht erbracht**; die separaten Worker-Tests bestehen. Offline-Bereitschaft wird in den Einstellungen ausdrücklich angezeigt; auf der veröffentlichten HTTPS-Seite wurde eine bereitstehende Offline-Kopie bestätigt. Ein Wiederholungstest durch Umgehung der Browserrichtlinie wurde nicht vorgenommen.
 - VoiceOver- oder vollständige Screenreader-Prüfung.
 - Hörprüfung der optionalen synthetischen Klickgeräusche.
 - Vollständige Wiedergabe aller neun externen Musikangebote; Anbieter können nur Hörproben, andere Zugangsbedingungen oder zeitweise Ausfälle haben.

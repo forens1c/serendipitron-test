@@ -2,6 +2,8 @@
 
 **Eine Maschine, die deine Aufmerksamkeit nicht besitzen möchte.**
 
+[Automaten öffnen](https://forens1c.github.io/serendipitron-test/) · [Quellcode](https://github.com/forens1c/serendipitron-test)
+
 Ein tatsächlich bedienbarer digitaler Kunst- und Gedankenwechselautomat. HTML, CSS und native JavaScript-Module; keine Laufzeitabhängigkeiten, Konten, geheimen Schlüssel oder eigener Server.
 
 Man muss nicht aufhören zu denken. Man kann seinem Denken einen anderen Gegenstand anbieten.
@@ -52,9 +54,9 @@ npm test
 
 ## GitHub Pages
 
-Publikationsziel ist ausschließlich `serendipitron-test`, Branch `main`, Ordner `/ (root)`. `.nojekyll` verhindert eine unnötige Jekyll-Verarbeitung. Sämtliche Anwendungspfade sind relativ. Andere Repositorys sind nicht Teil dieses Projekts.
+Veröffentlicht unter **https://forens1c.github.io/serendipitron-test/** aus `serendipitron-test`, Branch `main`, Ordner `/ (root)`. `.nojekyll` verhindert eine unnötige Jekyll-Verarbeitung. Sämtliche Anwendungspfade sind relativ. Andere Repositorys sind nicht Teil dieses Projekts.
 
-Wenn ein öffentliches Repository erforderlich ist, darf es erst nach ausdrücklicher Freigabe des Auftraggebers öffentlich angelegt oder umgestellt werden. Die Pages-Veröffentlichung und ihre HTTPS-Prüfung sind erst nach einer erfolgreichen Bereitstellung abgeschlossen; siehe [Testprotokoll](docs/TESTS.md).
+Das Repository ist öffentlich. GitHub Pages erzwingt HTTPS. Build und Bereitstellung sowie die tatsächliche HTTPS-Erreichbarkeit wurden am 27.11.2026 erfolgreich geprüft; siehe [Testprotokoll](docs/TESTS.md).
 
 ## Datenschutz und Offline-Verhalten
 
