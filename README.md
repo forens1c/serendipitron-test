@@ -8,6 +8,14 @@ Ein tatsächlich bedienbarer digitaler Kunst- und Gedankenwechselautomat. HTML, 
 
 Man muss nicht aufhören zu denken. Man kann seinem Denken einen anderen Gegenstand anbieten.
 
+## Über PB Labs
+
+**PB Labs** steht für **Playbook Labs**: **PB** meint *Playbook*, **Labs** ein Labor für Forschung, Experimente und Entwicklung.
+
+PB Labs ist eine unabhängige Ideen- und Entwicklerschmiede für kreative und technische Projekte. Neugier, spielerisches Entdecken und Freude am Experiment haben Vorrang.
+
+Das Motto lautet: **„Question. Test. Evolve.“** – *Fragen. Prüfen. Weiterentwickeln.*
+
 ## Bedienung
 
 1. Ein Fach wählen: STAUNEN, VERSINKEN, ANDERSDENKEN, ABSURDISTAN, VERWEILEN oder ZUFALL.
