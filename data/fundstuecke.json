@@ -1,0 +1,2946 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.1.0",
+  "checkedAt": "2026-11-27",
+  "language": "de",
+  "items": [
+    {
+      "id": "sta-001",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Regen für eine andere Welt",
+      "teaser": "Auf Titan hat das Wetter eine andere Chemie.",
+      "body": [
+        "Auf dem Saturnmond Titan gibt es Flüsse, Seen und Meere aus flüssigen Kohlenwasserstoffen, vor allem Methan und Ethan. Sie verdunsten, bilden Wolken und fallen als Regen zurück. Ein vertrauter Kreislauf, mit anderen Stoffen und bei sehr viel tieferen Temperaturen."
+      ],
+      "tags": [
+        "Astronomie",
+        "Wasser",
+        "Kreislauf"
+      ],
+      "sources": [
+        {
+          "label": "NASA · Titan: Facts",
+          "url": "https://science.nasa.gov/saturn/moons/titan/facts/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-002",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Ein Mond füttert einen Ring",
+      "teaser": "Enceladus verteilt seinen Ozean im All.",
+      "body": [
+        "Aus Spalten am Südpol von Enceladus schießen Wasserdampf und Eispartikel. Ein Teil dieses Materials speist Saturns E-Ring. Vieles fällt wieder auf den Mond zurück. Cassini konnte dadurch Material aus dem verborgenen Ozean untersuchen, ohne durch die Eiskruste bohren zu müssen."
+      ],
+      "tags": [
+        "Astronomie",
+        "Wasser",
+        "Spuren"
+      ],
+      "sources": [
+        {
+          "label": "NASA · Enceladus",
+          "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-003",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Der blaue Feierabend des Mars",
+      "teaser": "Ein Sonnenuntergang mit vertauschter Farbidee.",
+      "body": [
+        "Auf Marsaufnahmen kann der Himmel nahe der untergehenden Sonne bläulich erscheinen. Der feine Staub verändert die Streuung und Verteilung des Lichts. Die Bilder sind wissenschaftliche Beobachtungen; Farben hängen zusätzlich von Kamera, Filtern und Bildaufbereitung ab."
+      ],
+      "tags": [
+        "Astronomie",
+        "Licht",
+        "Farbe"
+      ],
+      "sources": [
+        {
+          "label": "NASA · Sonnenauf- und -untergänge auf dem Mars",
+          "url": "https://science.nasa.gov/solar-system/planets/mars/what-does-a-sunrise-sunset-look-like-on-mars/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-004",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Eine Drehung dauert länger als ein Jahr",
+      "teaser": "Bei Venus kommt es darauf an, welchen Tag man meint.",
+      "body": [
+        "Eine Venusrotation relativ zu den Sternen dauert rund 243 Erdentage, ein Umlauf um die Sonne rund 225. Dieser siderische Tag ist länger als das Venusjahr. Der Sonnentag, also der Abstand zwischen zwei Sonnenhöchstständen, ist etwas anderes und dauert etwa 117 Erdentage."
+      ],
+      "tags": [
+        "Astronomie",
+        "Zeit",
+        "Perspektive"
+      ],
+      "sources": [
+        {
+          "label": "ESA · Venusian geography",
+          "url": "https://www.esa.int/articles/about-us/directorates/science/venus-express/venusian-geography",
+          "checked": "2026-11-27"
+        },
+        {
+          "label": "NASA · Venus Facts, Orbit and Rotation",
+          "url": "https://science.nasa.gov/venus/venus-facts/",
+          "checked": "2026-11-27",
+          "note": "Siderischer Tag und Sonnentag sind unterschiedliche Größen."
+        }
+      ]
+    },
+    {
+      "id": "sta-005",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Eine Rosette um die Dunkelheit",
+      "teaser": "Die Bahn von S2 ist keine immer gleiche Ellipse.",
+      "body": [
+        "Der Stern S2 umkreist das massereiche schwarze Loch im Zentrum der Milchstraße. Seine Bahn dreht sich dabei langsam weiter: eine Schwarzschild-Präzession, wie sie die allgemeine Relativitätstheorie vorhersagt. Viele aufeinandergelegte Umläufe ergeben bildlich eine Rosette."
+      ],
+      "tags": [
+        "Astronomie",
+        "Muster",
+        "Bewegung"
+      ],
+      "sources": [
+        {
+          "label": "ESO · Schwarzschild-Präzession von S2, 2020",
+          "url": "https://www.eso.org/public/news/eso2006/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-006",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Unterwegs ohne Sonne",
+      "teaser": "PSO J318.5−22 gehört zu den frei schwebenden Welten.",
+      "body": [
+        "2013 wurde das junge, planetenmassige Objekt PSO J318.5−22 bekannt, das keinen Stern umkreist. Es wurde über sein eigenes Wärmeleuchten gefunden. Ob man solche Objekte Planet oder Unterart eines Braunen Zwergs nennt, hängt auch von Definition und Entstehungsweg ab."
+      ],
+      "tags": [
+        "Astronomie",
+        "Grenzen",
+        "Dunkelheit"
+      ],
+      "sources": [
+        {
+          "label": "University of Hawaiʻi · Ein planetenmassiges Objekt ohne Stern",
+          "url": "https://www.hawaii.edu/news/2013/10/10/strange-lonely-planet-found-without-a-star/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-007",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Durch die eigene Stirn sehen",
+      "teaser": "Ein Tiefseefisch trägt seine Augen unter einer klaren Kuppel.",
+      "body": [
+        "Macropinna microstoma besitzt röhrenförmige Augen unter einem transparenten, flüssigkeitsgefüllten Kopfschild. Die Augen können sich drehen: nach oben zur Nahrungssuche und nach vorn beim Fressen. Die kleinen Punkte über dem Maul, die wie Augen wirken, sind Geruchsorgane."
+      ],
+      "tags": [
+        "Natur",
+        "Licht",
+        "Perspektive"
+      ],
+      "sources": [
+        {
+          "label": "MBARI · Barreleye fish",
+          "url": "https://www.mbari.org/animal/barreleye-fish/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-008",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Ein Tier als Arbeitsteilung",
+      "teaser": "Eine Siphonophore besteht aus vielen verbundenen Einheiten.",
+      "body": [
+        "Siphonophoren sind koloniale Nesseltiere. Ihre miteinander verbundenen Zooide übernehmen unterschiedliche Aufgaben, etwa Schwimmen, Fressen, Verteidigung und Fortpflanzung. Das scheinbar einzelne Wesen ist ein eng gekoppelter Verband spezialisierter Einheiten."
+      ],
+      "tags": [
+        "Natur",
+        "Verbindung",
+        "Grenzen"
+      ],
+      "sources": [
+        {
+          "label": "NOAA Ocean Exploration · Siphonophore",
+          "url": "https://oceanexplorer.noaa.gov/multimedia/okeanos-explorations-seascape-alaska-ex2304-gallery-media-dive01-siphonophore/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-009",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Ein Haus aus biologischem Glas",
+      "teaser": "Manche Tiere bauen mit Siliziumdioxid.",
+      "body": [
+        "Glasschwämme bilden Skelettnadeln aus Siliziumdioxid. Bei manchen Arten verbinden sich diese zu einem feinen Gitter, das selbst nach dem Tod des Tieres bestehen bleiben kann. Eine gläserne Architektur, entstanden im Meer und ohne Schmelzofen."
+      ],
+      "tags": [
+        "Natur",
+        "Architektur",
+        "Material"
+      ],
+      "sources": [
+        {
+          "label": "NOAA · What is a glass sponge?",
+          "url": "https://oceanservice.noaa.gov/facts/glass-sponge.html",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-010",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Zwei Blätter fürs Leben",
+      "teaser": "Welwitschia erneuert nicht ständig ihre Garderobe.",
+      "body": [
+        "Welwitschia mirabilis bildet nur zwei bleibende Laubblätter. Sie wachsen an der Basis weiter und zerfasern im Lauf der Zeit, sodass die Pflanze vielblättrig aussehen kann. Einige Exemplare überleben viele Jahrhunderte in der Namib."
+      ],
+      "tags": [
+        "Natur",
+        "Zeit",
+        "Wachstum"
+      ],
+      "sources": [
+        {
+          "label": "Royal Botanic Gardens, Kew · Außergewöhnliche Pflanzen",
+          "url": "https://www.kew.org/read-and-watch/extraordinary-plants-at-kew",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-011",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Flechten sind kleine Wohngemeinschaften",
+      "teaser": "Was wie eine Pflanze aussieht, ist ein Zusammenleben.",
+      "body": [
+        "Eine Flechte entsteht aus einer engen Lebensgemeinschaft eines Pilzes mit einem photosynthetischen Partner: Grünalge, Cyanobakterium oder beiden. Der Partner liefert durch Photosynthese gewonnene Stoffe; der Pilz bildet die tragende, schützende Struktur. Weitere Mikroorganismen können dazugehören."
+      ],
+      "tags": [
+        "Natur",
+        "Verbindung",
+        "Grenzen"
+      ],
+      "sources": [
+        {
+          "label": "Natural History Museum · Was Flechten über Luft erzählen",
+          "url": "https://www.nhm.ac.uk/discover/nature-and-pollution-what-lichens-tell-us-about-toxic-air.html",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-012",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Gewöhnung ohne Nervenzellen",
+      "teaser": "Ein Schleimpilz verändert sein Verhalten im Experiment.",
+      "body": [
+        "In einer Studie von 2016 überquerte Physarum polycephalum wiederholt Brücken mit zunächst abschreckenden, ungefährlichen Stoffen. Die Verzögerung nahm ab und kehrte nach einer Pause zurück. Die Autoren deuteten das als Habituation. Das ist ein begrenzter experimenteller Befund, kein Nachweis menschlicher Erinnerung oder bewussten Denkens."
+      ],
+      "tags": [
+        "Natur",
+        "Lernen",
+        "Grenzen"
+      ],
+      "sources": [
+        {
+          "label": "Boisseau, Vogel & Dussutour · Habituation in non-neural organisms, 2016",
+          "url": "https://doi.org/10.1098/rspb.2016.0446",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-013",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Ein Werkzeug mit verlorener Bedienungsanleitung",
+      "teaser": "Römische Dodekaeder lassen eine Frage offen.",
+      "body": [
+        "Aus Teilen des Römischen Reichs sind kleine zwölfseitige Objekte aus Kupferlegierungen bekannt. Ihre Flächen tragen Löcher, ihre Ecken kleine Knöpfe. Der genaue Zweck ist nicht gesichert. Moderne Erklärungen reichen von Messhilfen bis zu Ritualobjekten; eine überzeugende Gebrauchsanweisung fehlt."
+      ],
+      "tags": [
+        "Archäologie",
+        "Rätsel",
+        "Wissen"
+      ],
+      "sources": [
+        {
+          "label": "English Heritage · The mysterious dodecahedra of the Roman Empire",
+          "url": "https://www.english-heritage.org.uk/visit/places/corbridge-roman-town-hadrians-wall/dodecahedron-exhibition/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-014",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Der Dodo passt nicht ganz in sein Porträt",
+      "teaser": "Auch berühmte Tiere hinterlassen unsichere Bilder.",
+      "body": [
+        "Das Oxford University Museum bewahrt die einzigen bekannten verbliebenen Weichteile eines Dodos. Gemälde und Berichte aus dem 17. Jahrhundert widersprechen sich deutlich. Selbst bei diesem berühmten Vogel bleibt sein genaues Erscheinungsbild unsicher; die populäre Silhouette ist keine Fotografie."
+      ],
+      "tags": [
+        "Natur",
+        "Geschichte",
+        "Spuren"
+      ],
+      "sources": [
+        {
+          "label": "Oxford University Museum of Natural History · The Oxford Dodo",
+          "url": "https://oumnh.ox.ac.uk/oxford-dodo-0",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-015",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Eine Wirtschaft aus Wasser",
+      "teaser": "MONIAC ließ Geldströme tatsächlich fließen.",
+      "body": [
+        "Bill Phillips entwarf 1949 einen analogen Wirtschaftsrechner. Wasser in Behältern und Leitungen stellte Geldströme dar; Ventile und Einstellungen bildeten Zusammenhänge eines Wirtschaftsmodells ab. Das Gerät diente der Lehre. Ein Modell der Wirtschaft wurde dadurch zu einem sichtbaren hydraulischen Vorgang."
+      ],
+      "tags": [
+        "Technikgeschichte",
+        "Wasser",
+        "Modelle"
+      ],
+      "sources": [
+        {
+          "label": "Science Museum Group · Phillips Economic Computer, 1949",
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co64127/phillips-economic-computer",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-016",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Ein Himmel zum Drehen",
+      "teaser": "Das Astrolabium bringt eine Himmelskugel auf eine Scheibe.",
+      "body": [
+        "Ein planisphärisches Astrolabium stellt den Himmel durch eine Projektion auf eine Ebene dar. Das durchbrochene Sternnetz, die Rete, dreht sich darüber. Mit solchen Instrumenten ließen sich unter anderem Zeit und Sternhöhen bestimmen. Ein analoger Rechner aus Geometrie und Metall."
+      ],
+      "tags": [
+        "Technikgeschichte",
+        "Astronomie",
+        "Modelle"
+      ],
+      "sources": [
+        {
+          "label": "Whipple Museum, Cambridge · A Medieval Astrolabe",
+          "url": "https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/astronomy/medieval-astrolabe",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-017",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Sand zeichnet Klang",
+      "teaser": "Chladni-Figuren machen Schwingungen sichtbar.",
+      "body": [
+        "Auf einer schwingenden Metallplatte springt Sand aus stärker bewegten Bereichen fort und sammelt sich an ruhigeren Knotenlinien. Unterschiedliche Schwingungsformen erzeugen verschiedene Muster. Die Figuren zeigen Bewegungsbedingungen der Platte, keine geheimen Botschaften einzelner Frequenzen."
+      ],
+      "tags": [
+        "Physik",
+        "Musik",
+        "Muster"
+      ],
+      "sources": [
+        {
+          "label": "Science Museum Group · Chladni Plates",
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co6013/chladni-plates",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-018",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Zerbrechliche Stellvertreter",
+      "teaser": "Die Blaschkas konservierten Meeresleben in Glas.",
+      "body": [
+        "Leopold und Rudolf Blaschka fertigten im 19. Jahrhundert naturkundliche Glasmodelle an. Gerade weiche Meerestiere verloren als konservierte Präparate oft Gestalt und Farbe. Die Modelle sollten ihre Formen für Unterricht und Museum anschaulich bewahren. Kunsthandwerk wurde zum wissenschaftlichen Anschauungsmittel."
+      ],
+      "tags": [
+        "Technikgeschichte",
+        "Kunst",
+        "Natur"
+      ],
+      "sources": [
+        {
+          "label": "National Museums Scotland · The Blaschkas",
+          "url": "https://www.nms.ac.uk/discover-catalogue/the-glass-artists-who-mastered-museum-models-the-blaschkas",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-019",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Eine sehr alte Verdauungsspur",
+      "teaser": "Mary Anning sah mehr als schöne Knochen.",
+      "body": [
+        "Mary Anning erkannte fossile Ausscheidungen in Verbindung mit Ichthyosauriern bereits in den 1820er-Jahren. William Buckland prägte später den Begriff Koprolith. Solche unscheinbaren Reste können Hinweise auf Nahrung und Verdauung ausgestorbener Tiere liefern."
+      ],
+      "tags": [
+        "Paläontologie",
+        "Geschichte",
+        "Spuren"
+      ],
+      "sources": [
+        {
+          "label": "Geological Society · Coprolites, recognised 1824",
+          "url": "https://www.geolsoc.org.uk/the-library/online-exhibitions/mary-anning-and-the-geological-society/pterosaurs-coprolites-and-sepia/coprolites/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-020",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Eine Stadt lässt das Wasser arbeiten",
+      "teaser": "Shushtar verbindet Kanäle, Tunnel und Mühlen.",
+      "body": [
+        "Das historische Wassersystem von Shushtar im heutigen Iran lenkte Wasser durch ein zusammenhängendes Netz von Wehren, Kanälen und Tunneln. Es versorgte die Stadt und trieb Mühlen an. Die Anlage zeigt Wasserbau als Architektur eines ganzen Lebensraums."
+      ],
+      "tags": [
+        "Architektur",
+        "Wasser",
+        "Verbindung"
+      ],
+      "sources": [
+        {
+          "label": "UNESCO · Shushtar Historical Hydraulic System",
+          "url": "https://whc.unesco.org/en/list/1315/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-021",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Ein Tempel führt nach unten",
+      "teaser": "Rani-ki-Vav baut dem Wasser entgegen.",
+      "body": [
+        "Der Stufenbrunnen Rani-ki-Vav in Gujarat entstand im 11. Jahrhundert. Treppen und reich geschmückte Ebenen führen in die Tiefe. UNESCO beschreibt die Anlage als umgekehrten Tempel: Ein alltäglicher Zugang zu Wasser erhält monumentale, religiöse Gestalt."
+      ],
+      "tags": [
+        "Architektur",
+        "Wasser",
+        "Perspektive"
+      ],
+      "sources": [
+        {
+          "label": "UNESCO · Rani-ki-Vav",
+          "url": "https://whc.unesco.org/en/list/922",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-022",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Eine Hauptstadt aus Erde",
+      "teaser": "Chan Chan widerspricht dem Bild vom dauerhaften Stein.",
+      "body": [
+        "Die Hauptstadt des Chimú-Reichs im heutigen Peru wurde überwiegend aus Erde errichtet. Mauern und Reliefs gliedern große umschlossene Bereiche. UNESCO nennt Chan Chan die größte Stadt aus Lehmarchitektur im vorkolumbischen Amerika. Die Materialwahl ist eindrucksvoll und macht den Ort zugleich empfindlich gegen Wasser und Wetter."
+      ],
+      "tags": [
+        "Architektur",
+        "Geschichte",
+        "Material"
+      ],
+      "sources": [
+        {
+          "label": "UNESCO · Chan Chan Archaeological Zone",
+          "url": "https://whc.unesco.org/en/list/366",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-023",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Ein Metall mit überraschend niedriger Schwelle",
+      "teaser": "Gallium schmilzt bei ungefähr 29,8 °C.",
+      "body": [
+        "Reines Gallium hat einen Schmelzpunkt von rund 29,8 °C unter Normaldruck. Die vertraute Verbindung zwischen Metall und hartem, kühlem Festkörper ist damit nur eine Alltagsgewohnheit."
+      ],
+      "tags": [
+        "Chemie",
+        "Material",
+        "Grenzen"
+      ],
+      "sources": [
+        {
+          "label": "Royal Society of Chemistry · Gallium",
+          "url": "https://periodic-table.rsc.org/element/31/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-024",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Das Kilogramm hat keinen einzigen Meister mehr",
+      "teaser": "Eine Einheit hängt an einer festgelegten Naturkonstante.",
+      "body": [
+        "Seit der SI-Neudefinition von 2019 wird das Kilogramm über einen exakt festgelegten Zahlenwert der Planck-Konstante definiert. Ein bestimmter Metallzylinder ist deshalb nicht mehr der alleinige Maßstab der Masse. Die praktische Realisierung erfordert weiterhin aufwendige Messverfahren."
+      ],
+      "tags": [
+        "Physik",
+        "Messen",
+        "Referenz"
+      ],
+      "sources": [
+        {
+          "label": "BIPM · Die Definition des Kilogramms",
+          "url": "https://www.bipm.org/en/si-base-units/kilogram",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-025",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Ein Hut ohne Wiederkehr",
+      "teaser": "Eine einzige Form kann periodische Pflasterungen ausschließen.",
+      "body": [
+        "Die 2023 vorgestellte Hat-Kachel kann die Ebene lückenlos bedecken, erlaubt aber keine periodische Pflasterung. Bei ihr gehören auch gespiegelte Exemplare dazu. Aperiodisch bedeutet nicht beliebig: Das Ganze besitzt Regeln, nur keinen sich durch Verschiebung endlos wiederholenden Grundblock."
+      ],
+      "tags": [
+        "Mathematik",
+        "Muster",
+        "Ordnung"
+      ],
+      "sources": [
+        {
+          "label": "Smith, Myers, Kaplan & Goodman-Strauss · An aperiodic monotile",
+          "url": "https://cs.uwaterloo.ca/~csk/hat/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-026",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Das Gespenst braucht keinen Spiegel",
+      "teaser": "Die Spectre-Kachel verschärft eine geometrische Idee.",
+      "body": [
+        "Die Spectre-Form ist ein aperiodischer Monotil mit gekrümmten Kanten. Nur gedrehte und verschobene Exemplare gleicher Händigkeit können die Ebene ohne Lücken und Überschneidungen bedecken, ohne periodisch zu werden. Anders als beim Hat sind Spiegelbilder für solche Pflasterungen nicht nötig."
+      ],
+      "tags": [
+        "Mathematik",
+        "Muster",
+        "Ordnung"
+      ],
+      "sources": [
+        {
+          "label": "Smith, Myers, Kaplan & Goodman-Strauss · A chiral aperiodic monotile",
+          "url": "https://escholarship.org/uc/item/4xn41982",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-027",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Ein Becher wechselt mit dem Licht",
+      "teaser": "Grün im Auflicht, rot im Durchlicht.",
+      "body": [
+        "Der spätantike Lycurgus-Becher besteht aus dichroitischem Glas. Winzige Gold- und Silberteilchen tragen dazu bei, dass er bei reflektiertem Licht grünlich und bei durchscheinendem Licht rötlich wirkt. Die Farbe hängt hier wesentlich davon ab, wie das Licht das Material erreicht und verlässt."
+      ],
+      "tags": [
+        "Archäologie",
+        "Licht",
+        "Farbe"
+      ],
+      "sources": [
+        {
+          "label": "British Museum · The Lycurgus Cup",
+          "url": "https://artsandculture.google.com/asset/the-lycurgus-cup/aQG7BXUoa7xwug",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-028",
+      "category": "staunen",
+      "kind": "hypothesis",
+      "title": "Risse als Teil einer Reparaturidee",
+      "teaser": "Kalkbestandteile könnten zur Haltbarkeit römischen Betons beitragen.",
+      "body": [
+        "Eine 2023 veröffentlichte Studie untersuchte kalkreiche Einschlüsse in antikem Beton und führte Versuche mit nachgebildeten Mischungen durch. Die Autoren schlagen vor, dass Heißmischen reaktive Kalkbestandteile erzeugte, die zur späteren Rissheilung beitragen können. Das erklärt nicht automatisch jede römische Rezeptur oder jedes erhaltene Bauwerk."
+      ],
+      "tags": [
+        "Archäologie",
+        "Material",
+        "Reparatur"
+      ],
+      "sources": [
+        {
+          "label": "Seymour et al. · Hot mixing, Science Advances, 2023",
+          "url": "https://dspace.mit.edu/entities/publication/d114c164-bdc9-4faf-8cd2-bb5075acfc0e",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-029",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Eine Seekarte ohne Küstenlinie",
+      "teaser": "Ein Mattang lehrt Muster der Wellen.",
+      "body": [
+        "Bestimmte Stabkarten der Marshallinseln, Mattang genannt, dienten als Lehrmodelle. Sie zeigen keine konkrete geografische Region, sondern Beziehungen zwischen Inseln und Wellengängen. Die Karte macht eine andere Art von Navigationswissen anschaulich als unsere gewohnten Landumrisse."
+      ],
+      "tags": [
+        "Geschichte",
+        "Wasser",
+        "Modelle"
+      ],
+      "sources": [
+        {
+          "label": "Library of Congress · Marshall Islands stick chart, Mattang type",
+          "url": "https://www.loc.gov/item/2010586180/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-030",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Eine Zahl kann ein Knoten sein",
+      "teaser": "Khipu bewahrten Verwaltungswissen in Schnüren.",
+      "body": [
+        "Die Inka verwendeten Khipu aus Schnüren und Knoten zur Aufzeichnung. Bei numerischen Khipu können Knotenanordnung und Position dezimale Stellenwerte darstellen. Nicht jede Bedeutung aller erhaltenen Stücke ist entschlüsselt. Schrift und Aufzeichnung müssen nicht wie schwarze Zeichen auf weißem Papier aussehen."
+      ],
+      "tags": [
+        "Geschichte",
+        "Mathematik",
+        "Spuren"
+      ],
+      "sources": [
+        {
+          "label": "Smithsonian · The Ancient Quipu or Peruvian Knot Record",
+          "url": "https://americanhistory.si.edu/collections/object/nmah_1590977",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-031",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Zahnräder rechnen Finsternisse",
+      "teaser": "Der Mechanismus von Antikythera verband Technik und Himmel.",
+      "body": [
+        "An Fragmenten des antiken Mechanismus wurde eine Skala für den Saros-Zyklus rekonstruiert: 223 Mondmonate, mit Markierungen möglicher Finsternisse. Das Instrument verknüpfte astronomische Zyklen mechanisch. Nicht jedes Detail seiner ursprünglichen Konstruktion ist abschließend geklärt."
+      ],
+      "tags": [
+        "Archäologie",
+        "Astronomie",
+        "Technikgeschichte"
+      ],
+      "sources": [
+        {
+          "label": "Antikythera Mechanism Research Project · Eclipse predictor",
+          "url": "https://www.antikythera-mechanism.gr/bibliography/728",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-032",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Wie blau ist der Himmel?",
+      "teaser": "Das Cyanometer macht aus einer Frage eine Farbskala.",
+      "body": [
+        "Horace-Bénédict de Saussure nutzte im 18. Jahrhundert bemalte Farbfelder, um das Blau des Himmels zu vergleichen. Ein Cyanometer ordnet Beobachtungen über eine Skala. Es ist ein schönes Beispiel dafür, wie Messung mit einer absichtlich gewählten Vergleichsordnung beginnt."
+      ],
+      "tags": [
+        "Technikgeschichte",
+        "Farbe",
+        "Messen"
+      ],
+      "sources": [
+        {
+          "label": "Musée d’histoire des sciences, Genève · Saussure und das Cyanometer",
+          "url": "https://institutions.ville-geneve.ch/fileadmin/user_upload/mhn/images/votre_visite/site_mhs/aide_saussure_e.pdf",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-033",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Paläste zwischen Gezeitenkanälen",
+      "teaser": "Nan Madol wurde auf künstlichen Inseln errichtet.",
+      "body": [
+        "Vor Pohnpei liegen die Überreste von Nan Madol auf mehr als hundert künstlichen Inselchen. Monumentale Basaltbauten und Kanäle bilden einen zusammenhängenden zeremoniellen Ort. Die gestapelten Steinsäulen erinnern an Holzbau, sind aber Teil einer eigenständigen pazifischen Bautradition."
+      ],
+      "tags": [
+        "Architektur",
+        "Wasser",
+        "Geschichte"
+      ],
+      "sources": [
+        {
+          "label": "UNESCO · Nan Madol",
+          "url": "https://whc.unesco.org/en/list/1503/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-034",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Eine Stadt fängt den Wind",
+      "teaser": "Yazd verbindet Lehmwände, Höfe und Windtürme.",
+      "body": [
+        "Im trockenen Klima von Yazd tragen Windfänger, Innenhöfe und dicke Erdwände zur Gestaltung eines angenehmeren Mikroklimas bei. Die historische Stadt zeigt, wie Gebäude mit Luftbewegung und Materialeigenschaften arbeiten können. Die Wirkung hängt von Bauform und örtlichen Bedingungen ab."
+      ],
+      "tags": [
+        "Architektur",
+        "Luft",
+        "Material"
+      ],
+      "sources": [
+        {
+          "label": "UNESCO · Historic City of Yazd",
+          "url": "https://whc.unesco.org/en/list/1544",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "sta-035",
+      "category": "staunen",
+      "kind": "fact",
+      "title": "Ein Sternnetz braucht einen Standort",
+      "teaser": "Ein Astrolabium ist nicht überall gleich eingerichtet.",
+      "body": [
+        "Die für ein Astrolabium verwendeten Einlegescheiben können an unterschiedliche geografische Breiten angepasst sein. Was als praktischer Himmelsausschnitt erscheint, hängt vom Beobachtungsort ab. Dasselbe Instrument verbindet einen drehbaren Sternplan mit einer ortsabhängigen Darstellung."
+      ],
+      "tags": [
+        "Astronomie",
+        "Perspektive",
+        "Modelle"
+      ],
+      "sources": [
+        {
+          "label": "Whipple Museum, Cambridge · A Medieval Astrolabe",
+          "url": "https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/astronomy/medieval-astrolabe",
+          "checked": "2026-11-27"
+        },
+        {
+          "label": "Whipple Museum · Einlegescheiben für verschiedene geografische Breiten",
+          "url": "https://collections.whipplemuseum.cam.ac.uk/objects/8793/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "vsk-001",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Ein Kelch, groß genug für eine Landschaft",
+      "teaser": "Thomas Cole · The Titan’s Goblet",
+      "body": [
+        "Thomas Cole · 1833. Oil on canvas.",
+        "Eigene Betrachtung: Der Kelch wirkt wie ein alltäglicher Gegenstand, bis sich sein Maßstab entzieht. Ein Gefäß wird zum Ort, eine Landschaft zum Inhalt."
+      ],
+      "tags": [
+        "Kunst",
+        "Licht",
+        "Museum"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · The Titan's Goblet",
+          "url": "https://www.metmuseum.org/art/collection/search/10499",
+          "note": "Werkangaben aus dem Museumskatalog; die Betrachtung ist als eigene Interpretation gekennzeichnet.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "image": {
+        "src": "./assets/met-10499.webp",
+        "alt": "The Titan's Goblet",
+        "credit": "Thomas Cole · 1833 · The Metropolitan Museum of Art · CC0 Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search/10499"
+      },
+      "media": {
+        "label": "Im Museum betrachten",
+        "url": "https://www.metmuseum.org/art/collection/search/10499"
+      }
+    },
+    {
+      "id": "vsk-002",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Eine Landschaft als Welt im Kleinen",
+      "teaser": "Frederic Edwin Church · Heart of the Andes",
+      "body": [
+        "Frederic Edwin Church · 1859. Oil on canvas.",
+        "Eigene Betrachtung: Das Auge kann in dieser dicht gestaffelten Landschaft immer wieder an einer anderen Stelle wohnen. Nähe und Ferne sind fast verschiedene Klimazonen des Betrachtens."
+      ],
+      "tags": [
+        "Kunst",
+        "Licht",
+        "Museum"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · Heart of the Andes",
+          "url": "https://www.metmuseum.org/art/collection/search/10481",
+          "note": "Werkangaben aus dem Museumskatalog; die Betrachtung ist als eigene Interpretation gekennzeichnet.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "image": {
+        "src": "./assets/met-10481.webp",
+        "alt": "Heart of the Andes",
+        "credit": "Frederic Edwin Church · 1859 · The Metropolitan Museum of Art · CC0 Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search/10481"
+      },
+      "media": {
+        "label": "Im Museum betrachten",
+        "url": "https://www.metmuseum.org/art/collection/search/10481"
+      }
+    },
+    {
+      "id": "vsk-003",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Der Sommer trägt eine Sichel",
+      "teaser": "Stefano della Bella · Allegorie des Sommers",
+      "body": [
+        "Stefano della Bella · ca. 1638–43. Etching.",
+        "Eigene Betrachtung: Jahreszeit wird hier zu einer Figur mit Attributen. Eine andere Ordnung des Kalenders: nicht zwölf Kästchen, sondern Körper, Pflanzen und Werkzeug."
+      ],
+      "tags": [
+        "Kunst",
+        "Licht",
+        "Museum"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · Summer, a woman, crowned with corn, standing in a cornfield with corn in her right hand and a scythe in her left hand, within a cartouche topped with corn, from \"The Four Seasons\" (Les Quatre Saisons)",
+          "url": "https://www.metmuseum.org/art/collection/search/410785",
+          "note": "Werkangaben aus dem Museumskatalog; die Betrachtung ist als eigene Interpretation gekennzeichnet.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "image": {
+        "src": "./assets/met-410785.webp",
+        "alt": "Summer, a woman, crowned with corn, standing in a cornfield with corn in her right hand and a scythe in her left hand, within a cartouche topped with corn, from \"The Four Seasons\" (Les Quatre Saisons)",
+        "credit": "Stefano della Bella · ca. 1638–43 · The Metropolitan Museum of Art · CC0 Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search/410785"
+      },
+      "media": {
+        "label": "Im Museum betrachten",
+        "url": "https://www.metmuseum.org/art/collection/search/410785"
+      }
+    },
+    {
+      "id": "vsk-004",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Botanik in tiefem Blau",
+      "teaser": "Anna Atkins · Photographs of British Algae",
+      "body": [
+        "Anna Atkins · 1843–53. Cyanotypes.",
+        "Eigene Betrachtung: Auf dem cyanotypischen Blau wird die Pflanze zur hellen Spur. Das Bild steht zwischen wissenschaftlicher Tafel und stiller grafischer Komposition."
+      ],
+      "tags": [
+        "Kunst",
+        "Licht",
+        "Museum"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · Photographs of British Algae: Cyanotype Impressions",
+          "url": "https://www.metmuseum.org/art/collection/search/286656",
+          "note": "Werkangaben aus dem Museumskatalog; die Betrachtung ist als eigene Interpretation gekennzeichnet.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "image": {
+        "src": "./assets/met-286656.webp",
+        "alt": "Photographs of British Algae: Cyanotype Impressions",
+        "credit": "Anna Atkins · 1843–53 · The Metropolitan Museum of Art · CC0 Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search/286656"
+      },
+      "media": {
+        "label": "Im Museum betrachten",
+        "url": "https://www.metmuseum.org/art/collection/search/286656"
+      }
+    },
+    {
+      "id": "vsk-005",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Ein Morgen von George Inness",
+      "teaser": "George Inness · Sunrise",
+      "body": [
+        "George Inness · 1887. Oil on canvas.",
+        "Eigene Betrachtung: Ein gemalter Sonnenaufgang lässt sich ohne Wetterbericht betrachten. Der Tag muss hier nichts erfüllen; er bekommt zunächst nur Farbe und Raum."
+      ],
+      "tags": [
+        "Kunst",
+        "Licht",
+        "Museum"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · Sunrise",
+          "url": "https://www.metmuseum.org/art/collection/search/11235",
+          "note": "Werkangaben aus dem Museumskatalog; die Betrachtung ist als eigene Interpretation gekennzeichnet.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "image": {
+        "src": "./assets/met-11235.webp",
+        "alt": "Sunrise",
+        "credit": "George Inness · 1887 · The Metropolitan Museum of Art · CC0 Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search/11235"
+      },
+      "media": {
+        "label": "Im Museum betrachten",
+        "url": "https://www.metmuseum.org/art/collection/search/11235"
+      }
+    },
+    {
+      "id": "vsk-006",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Ein Morgen aus einer anderen Epoche",
+      "teaser": "Claude Lorrain · Sunrise",
+      "body": [
+        "Claude Lorrain (Claude Gellée) · possibly 1646–47. Oil on canvas.",
+        "Eigene Betrachtung: Die Beleuchtung hält die Landschaft zusammen. Was im Vordergrund liegt und was fern bleibt, scheint durch denselben hellen Atem verbunden."
+      ],
+      "tags": [
+        "Kunst",
+        "Licht",
+        "Museum"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · Sunrise",
+          "url": "https://www.metmuseum.org/art/collection/search/435907",
+          "note": "Werkangaben aus dem Museumskatalog; die Betrachtung ist als eigene Interpretation gekennzeichnet.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "image": {
+        "src": "./assets/met-435907.webp",
+        "alt": "Sunrise",
+        "credit": "Claude Lorrain (Claude Gellée) · possibly 1646–47 · The Metropolitan Museum of Art · CC0 Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search/435907"
+      },
+      "media": {
+        "label": "Im Museum betrachten",
+        "url": "https://www.metmuseum.org/art/collection/search/435907"
+      }
+    },
+    {
+      "id": "vsk-007",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Die weite See bei Winslow Homer",
+      "teaser": "Winslow Homer · The Gulf Stream",
+      "body": [
+        "Winslow Homer · 1899; reworked by 1906. Oil on canvas.",
+        "Eigene Betrachtung: Das Bild enthält Gefahr und eine sehr große Gleichgültigkeit des Meeres. Eine dramatische Szene, die man nicht mit einem beruhigenden Schluss versehen muss."
+      ],
+      "tags": [
+        "Kunst",
+        "Licht",
+        "Museum"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · The Gulf Stream",
+          "url": "https://www.metmuseum.org/art/collection/search/11122",
+          "note": "Werkangaben aus dem Museumskatalog; die Betrachtung ist als eigene Interpretation gekennzeichnet.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "image": {
+        "src": "./assets/met-11122.webp",
+        "alt": "The Gulf Stream",
+        "credit": "Winslow Homer · 1899; reworked by 1906 · The Metropolitan Museum of Art · CC0 Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search/11122"
+      },
+      "media": {
+        "label": "Im Museum betrachten",
+        "url": "https://www.metmuseum.org/art/collection/search/11122"
+      }
+    },
+    {
+      "id": "vsk-008",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Mondlicht von Dwight William Tryon",
+      "teaser": "Dwight William Tryon · Moonlight",
+      "body": [
+        "Dwight William Tryon · 1887. Oil on wood.",
+        "Eigene Betrachtung: Der Titel lässt eine Lichtquelle erwarten, doch das Dunkel bekommt ebenso viel Aufmerksamkeit. Eine Landschaft kann von dem leben, was sie zurückhält."
+      ],
+      "tags": [
+        "Kunst",
+        "Licht",
+        "Museum"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · Moonlight",
+          "url": "https://www.metmuseum.org/art/collection/search/12833",
+          "note": "Werkangaben aus dem Museumskatalog; die Betrachtung ist als eigene Interpretation gekennzeichnet.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "image": {
+        "src": "./assets/met-12833.webp",
+        "alt": "Moonlight",
+        "credit": "Dwight William Tryon · 1887 · The Metropolitan Museum of Art · CC0 Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search/12833"
+      },
+      "media": {
+        "label": "Im Museum betrachten",
+        "url": "https://www.metmuseum.org/art/collection/search/12833"
+      }
+    },
+    {
+      "id": "vsk-009",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Die Nacht in einer Druckgrafik",
+      "teaser": "Charles-François Daubigny · Moonlight",
+      "body": [
+        "Charles-François Daubigny · ca. 1860. Watercolor.",
+        "Eigene Betrachtung: In der Grafik arbeitet Nacht mit Papier und Strich. Helligkeit kann gerade dort entstehen, wo die Hand weniger gesetzt hat."
+      ],
+      "tags": [
+        "Kunst",
+        "Licht",
+        "Museum"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · Moonlight",
+          "url": "https://www.metmuseum.org/art/collection/search/333877",
+          "note": "Werkangaben aus dem Museumskatalog; die Betrachtung ist als eigene Interpretation gekennzeichnet.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "image": {
+        "src": "./assets/met-333877.webp",
+        "alt": "Moonlight",
+        "credit": "Charles-François Daubigny · ca. 1860 · The Metropolitan Museum of Art · CC0 Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search/333877"
+      },
+      "media": {
+        "label": "Im Museum betrachten",
+        "url": "https://www.metmuseum.org/art/collection/search/333877"
+      }
+    },
+    {
+      "id": "vsk-010",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Irisblüten als Farbereignis",
+      "teaser": "Vincent van Gogh · Irises",
+      "body": [
+        "Vincent van Gogh · 1890. Oil on canvas.",
+        "Eigene Betrachtung: Die Vase ordnet die Stiele, aber die Blüten behalten ihren eigenen Rhythmus. Farbe lässt sich hier auch ansehen, ohne ihre Symbolik bestimmen zu müssen."
+      ],
+      "tags": [
+        "Kunst",
+        "Licht",
+        "Museum"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · Irises",
+          "url": "https://www.metmuseum.org/art/collection/search/436528",
+          "note": "Werkangaben aus dem Museumskatalog; die Betrachtung ist als eigene Interpretation gekennzeichnet.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "image": {
+        "src": "./assets/met-436528.webp",
+        "alt": "Irises",
+        "credit": "Vincent van Gogh · 1890 · The Metropolitan Museum of Art · CC0 Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search/436528"
+      },
+      "media": {
+        "label": "Im Museum betrachten",
+        "url": "https://www.metmuseum.org/art/collection/search/436528"
+      }
+    },
+    {
+      "id": "vsk-011",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Ein Feld mit bewegter Handschrift",
+      "teaser": "Vincent van Gogh · Wheat Field with Cypresses",
+      "body": [
+        "Vincent van Gogh · 1889. Oil on canvas.",
+        "Eigene Betrachtung: Wolken, Feld und Baum scheinen in verschiedenen Richtungen unterwegs. Die Landschaft bleibt ein Ort und ist zugleich eine sichtbare Bewegung der Hand."
+      ],
+      "tags": [
+        "Kunst",
+        "Licht",
+        "Museum"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · Wheat Field with Cypresses",
+          "url": "https://www.metmuseum.org/art/collection/search/436535",
+          "note": "Werkangaben aus dem Museumskatalog; die Betrachtung ist als eigene Interpretation gekennzeichnet.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "image": {
+        "src": "./assets/met-436535.webp",
+        "alt": "Wheat Field with Cypresses",
+        "credit": "Vincent van Gogh · 1889 · The Metropolitan Museum of Art · CC0 Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search/436535"
+      },
+      "media": {
+        "label": "Im Museum betrachten",
+        "url": "https://www.metmuseum.org/art/collection/search/436535"
+      }
+    },
+    {
+      "id": "vsk-012",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Eine Katze in einem vertrauten Motiv",
+      "teaser": "Rembrandt · Virgin and Child with the Cat",
+      "body": [
+        "Rembrandt (Rembrandt van Rijn) · 1654. Etching; second of four states.",
+        "Eigene Betrachtung: Ein kleines Tier verschiebt den Blick in einer großen Bildtradition. Neben dem feierlichen Motiv lebt eine beiläufige Gegenwart."
+      ],
+      "tags": [
+        "Kunst",
+        "Licht",
+        "Museum"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · Virgin and Child with the Cat: and Joseph at the Window",
+          "url": "https://www.metmuseum.org/art/collection/search/334647",
+          "note": "Werkangaben aus dem Museumskatalog; die Betrachtung ist als eigene Interpretation gekennzeichnet.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "image": {
+        "src": "./assets/met-334647.webp",
+        "alt": "Virgin and Child with the Cat: and Joseph at the Window",
+        "credit": "Rembrandt (Rembrandt van Rijn) · 1654 · The Metropolitan Museum of Art · CC0 Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search/334647"
+      },
+      "media": {
+        "label": "Im Museum betrachten",
+        "url": "https://www.metmuseum.org/art/collection/search/334647"
+      }
+    },
+    {
+      "id": "vsk-013",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Ein Selbstporträt unter einem Strohhut",
+      "teaser": "Vincent van Gogh · Self-Portrait with a Straw Hat",
+      "body": [
+        "Vincent van Gogh · 1887. Oil on canvas.",
+        "Eigene Betrachtung: Ein Porträt ist gleichzeitig ein Gesicht und eine bemalte Oberfläche. Der Blick kann zwischen Person, Strichen und Farbe wechseln."
+      ],
+      "tags": [
+        "Kunst",
+        "Licht",
+        "Museum"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · Self-Portrait with a Straw Hat (obverse: The Potato Peeler)",
+          "url": "https://www.metmuseum.org/art/collection/search/436532",
+          "note": "Werkangaben aus dem Museumskatalog; die Betrachtung ist als eigene Interpretation gekennzeichnet.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "image": {
+        "src": "./assets/met-436532.webp",
+        "alt": "Self-Portrait with a Straw Hat (obverse: The Potato Peeler)",
+        "credit": "Vincent van Gogh · 1887 · The Metropolitan Museum of Art · CC0 Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search/436532"
+      },
+      "media": {
+        "label": "Im Museum betrachten",
+        "url": "https://www.metmuseum.org/art/collection/search/436532"
+      }
+    },
+    {
+      "id": "vsk-014",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Venedig in leichter Farbe",
+      "teaser": "J. M. W. Turner · Venice, from the Porch of Madonna della Salute",
+      "body": [
+        "Joseph Mallord William Turner · ca. 1835. Oil on canvas.",
+        "Eigene Betrachtung: Die Architektur scheint weniger gebaut als aus Licht aufgetaucht. Wasser und Ferne lassen den festen Stadtplan für einen Augenblick durchlässig werden."
+      ],
+      "tags": [
+        "Kunst",
+        "Licht",
+        "Museum"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · Venice, from the Porch of Madonna della Salute",
+          "url": "https://www.metmuseum.org/art/collection/search/437853",
+          "note": "Werkangaben aus dem Museumskatalog; die Betrachtung ist als eigene Interpretation gekennzeichnet.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "image": {
+        "src": "./assets/met-437853.webp",
+        "alt": "Venice, from the Porch of Madonna della Salute",
+        "credit": "Joseph Mallord William Turner · ca. 1835 · The Metropolitan Museum of Art · CC0 Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search/437853"
+      },
+      "media": {
+        "label": "Im Museum betrachten",
+        "url": "https://www.metmuseum.org/art/collection/search/437853"
+      }
+    },
+    {
+      "id": "vsk-015",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Ein Cello, ein ganzer Raum",
+      "teaser": "J. S. Bach · Cellosuite Nr. 2, BWV 1008",
+      "body": [
+        "Steuart Pincombe spielt die zweite Cellosuite für All of Bach. Die offizielle Seite führt durch die einzelnen Sätze. Eine mögliche Hörperspektive: Eine einzelne Linie kann einen erstaunlich großen Raum öffnen."
+      ],
+      "tags": [
+        "Barock",
+        "Musik",
+        "Klang"
+      ],
+      "sources": [
+        {
+          "label": "Netherlands Bach Society · All of Bach",
+          "url": "https://www.bachvereniging.nl/nl/bwv/bwv-1008",
+          "note": "Legaler externer Anbieter; je nach Seite Hörprobe, Video oder vollständige Aufnahme.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "media": {
+        "label": "Musik beim Anbieter öffnen",
+        "url": "https://www.bachvereniging.nl/nl/bwv/bwv-1008",
+        "type": "music"
+      },
+      "image": {
+        "src": "./assets/sound-study.svg",
+        "credit": "PB Labs · eigene Klangillustration, keine Notation des verlinkten Musikstücks",
+        "alt": "Abstrakte goldene Linien auf dunklem Grund"
+      }
+    },
+    {
+      "id": "vsk-016",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Eine Glocke im leeren Himmel",
+      "teaser": "Gorō Yamaguchi · Japan: Shakuhachi Music",
+      "body": [
+        "Das Nonesuch-Album stellt die japanische Bambusflöte Shakuhachi mit Gorō Yamaguchi vor. Die verlinkte Labelseite nennt unter anderem Sōkaku-reibo. Eine mögliche Hörperspektive: Atem und Ton scheinen einander Platz zu machen."
+      ],
+      "tags": [
+        "Musik",
+        "Luft",
+        "Klang"
+      ],
+      "sources": [
+        {
+          "label": "Nonesuch Records · offizielle Albumseite",
+          "url": "https://www.nonesuch.com/albums/japan-shakuhachi-music-bell-ringing-empty-sky",
+          "note": "Legaler externer Anbieter; je nach Seite Hörprobe, Video oder vollständige Aufnahme.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "media": {
+        "label": "Musik beim Anbieter öffnen",
+        "url": "https://www.nonesuch.com/albums/japan-shakuhachi-music-bell-ringing-empty-sky",
+        "type": "music"
+      },
+      "image": {
+        "src": "./assets/sound-study.svg",
+        "credit": "PB Labs · eigene Klangillustration, keine Notation des verlinkten Musikstücks",
+        "alt": "Abstrakte goldene Linien auf dunklem Grund"
+      }
+    },
+    {
+      "id": "vsk-017",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Ein Orchester aus ineinandergreifenden Linien",
+      "teaser": "Lagu Srihardjono · Gamelan orchestra, Java",
+      "body": [
+        "Smithsonian Folkways führt diese Aufnahme aus Java auf dem Album Toward World Understanding with Song. Eine mögliche Hörperspektive: Der Klang kann wie ein Gewebe wirken, in dem keine einzelne Linie den ganzen Stoff erklärt."
+      ],
+      "tags": [
+        "Musik",
+        "Muster",
+        "Verbindung"
+      ],
+      "sources": [
+        {
+          "label": "Smithsonian Folkways · Lagu Srihardjono",
+          "url": "https://folkways.si.edu/lagu-srihardjono/islamica-world/music/track/smithsonian",
+          "note": "Legaler externer Anbieter; je nach Seite Hörprobe, Video oder vollständige Aufnahme.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "media": {
+        "label": "Musik beim Anbieter öffnen",
+        "url": "https://folkways.si.edu/lagu-srihardjono/islamica-world/music/track/smithsonian",
+        "type": "music"
+      },
+      "image": {
+        "src": "./assets/sound-study.svg",
+        "credit": "PB Labs · eigene Klangillustration, keine Notation des verlinkten Musikstücks",
+        "alt": "Abstrakte goldene Linien auf dunklem Grund"
+      }
+    },
+    {
+      "id": "vsk-018",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Eine Stimme nimmt sich Raum",
+      "teaser": "Ustad F. Wasifuddin Dagar · Dhrupad",
+      "body": [
+        "Die offizielle Smithsonian-Seite stellt ein Album des nordindischen Dhrupad-Sängers Ustad F. Wasifuddin Dagar vor. Eine mögliche Hörperspektive: Hier darf eine Klangfarbe länger bestehen, als ein hastiger Blick erwarten würde."
+      ],
+      "tags": [
+        "Musik",
+        "Klang",
+        "Zeit"
+      ],
+      "sources": [
+        {
+          "label": "Smithsonian Folkways · North India: Dhrupad Singing",
+          "url": "https://folkways.si.edu/north-india-dhrupad-singing-by-ustad-f-wasifuddin-dagar/world/music/album/smithsonian",
+          "note": "Legaler externer Anbieter; je nach Seite Hörprobe, Video oder vollständige Aufnahme.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "media": {
+        "label": "Musik beim Anbieter öffnen",
+        "url": "https://folkways.si.edu/north-india-dhrupad-singing-by-ustad-f-wasifuddin-dagar/world/music/album/smithsonian",
+        "type": "music"
+      },
+      "image": {
+        "src": "./assets/sound-study.svg",
+        "credit": "PB Labs · eigene Klangillustration, keine Notation des verlinkten Musikstücks",
+        "alt": "Abstrakte goldene Linien auf dunklem Grund"
+      }
+    },
+    {
+      "id": "vsk-019",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Eine Stimme mit mehreren hörbaren Ebenen",
+      "teaser": "Sundui · The Khöömiy Lesson",
+      "body": [
+        "Sunduis Aufnahme gehört zum Album Mongolia: Traditional Music. Auf der offiziellen Trackseite wird Khöömiy als konkrete Aufführung hörbar. Eine mögliche Hörperspektive: Ein Klang kann zugleich Boden und feine Bewegung darüber sein."
+      ],
+      "tags": [
+        "Musik",
+        "Klang",
+        "Muster"
+      ],
+      "sources": [
+        {
+          "label": "Smithsonian Folkways · The Khöömiy Lesson",
+          "url": "https://folkways.si.edu/sundui/the-khoomiy-lesson/music/track/smithsonian",
+          "note": "Legaler externer Anbieter; je nach Seite Hörprobe, Video oder vollständige Aufnahme.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "media": {
+        "label": "Musik beim Anbieter öffnen",
+        "url": "https://folkways.si.edu/sundui/the-khoomiy-lesson/music/track/smithsonian",
+        "type": "music"
+      },
+      "image": {
+        "src": "./assets/sound-study.svg",
+        "credit": "PB Labs · eigene Klangillustration, keine Notation des verlinkten Musikstücks",
+        "alt": "Abstrakte goldene Linien auf dunklem Grund"
+      }
+    },
+    {
+      "id": "vsk-020",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Stimmen nebeneinander",
+      "teaser": "Georgian mixed chorus · Georgian Song",
+      "body": [
+        "Die Folkways-Trackseite verzeichnet Georgian Song mit einem georgischen gemischten Chor. Der historische Albumtitel lautet Russian Choral Music; er ist keine präzise Herkunftsangabe für jedes enthaltene Stück. Eine mögliche Hörperspektive: Einzelne Stimmen bleiben hörbar und bilden doch einen gemeinsamen Körper."
+      ],
+      "tags": [
+        "Musik",
+        "Verbindung",
+        "Klang"
+      ],
+      "sources": [
+        {
+          "label": "Smithsonian Folkways · Georgian Song",
+          "url": "https://folkways.si.edu/georgian-song/sacred-world/music/track/smithsonian",
+          "note": "Legaler externer Anbieter; je nach Seite Hörprobe, Video oder vollständige Aufnahme.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "media": {
+        "label": "Musik beim Anbieter öffnen",
+        "url": "https://folkways.si.edu/georgian-song/sacred-world/music/track/smithsonian",
+        "type": "music"
+      },
+      "image": {
+        "src": "./assets/sound-study.svg",
+        "credit": "PB Labs · eigene Klangillustration, keine Notation des verlinkten Musikstücks",
+        "alt": "Abstrakte goldene Linien auf dunklem Grund"
+      }
+    },
+    {
+      "id": "vsk-021",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Musik aus dem Ituri-Wald",
+      "teaser": "Music of the Ituri Forest · historische Feldaufnahmen",
+      "body": [
+        "Das Folkways-Album versammelt historische Aufnahmen aus dem Ituri-Gebiet, unter anderem von Colin Turnbull. Die Begleittexte gehören zu ihrer Entstehungszeit und können überholte Bezeichnungen enthalten. Die Aufnahmen sind konkrete Dokumente bestimmter Menschen und Situationen, kein zeitloses Klangbild eines ganzen Kontinents."
+      ],
+      "tags": [
+        "Musik",
+        "Geschichte",
+        "Klang"
+      ],
+      "sources": [
+        {
+          "label": "Smithsonian Folkways · Music of the Ituri Forest",
+          "url": "https://folkways.si.edu/music-of-the-ituri-forest/world/album/smithsonian",
+          "note": "Legaler externer Anbieter; je nach Seite Hörprobe, Video oder vollständige Aufnahme.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "media": {
+        "label": "Musik beim Anbieter öffnen",
+        "url": "https://folkways.si.edu/music-of-the-ituri-forest/world/album/smithsonian",
+        "type": "music"
+      },
+      "image": {
+        "src": "./assets/sound-study.svg",
+        "credit": "PB Labs · eigene Klangillustration, keine Notation des verlinkten Musikstücks",
+        "alt": "Abstrakte goldene Linien auf dunklem Grund"
+      }
+    },
+    {
+      "id": "vsk-022",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Eine Gitarre erzählt im Vorbeigehen",
+      "teaser": "Mississippi John Hurt · Spike Driver Blues",
+      "body": [
+        "Die offizielle Folkways-Trackseite führt Mississippi John Hurt mit Stimme und akustischer Gitarre. Eine mögliche Hörperspektive: Die begleitenden Figuren wirken wie kleine Wege, auf denen die Erzählung weitergeht. Das Musikstück wird extern geöffnet; die Aufnahme liegt nicht in dieser App."
+      ],
+      "tags": [
+        "Musik",
+        "Geschichte",
+        "Klang"
+      ],
+      "sources": [
+        {
+          "label": "Smithsonian Folkways · Spike Driver Blues",
+          "url": "https://folkways.si.edu/mississippi-john-hurt/spike-driver-blues/african-american-music-american-folk-blues-old-time/music/track/smithsonian",
+          "note": "Legaler externer Anbieter; je nach Seite Hörprobe, Video oder vollständige Aufnahme.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "media": {
+        "label": "Musik beim Anbieter öffnen",
+        "url": "https://folkways.si.edu/mississippi-john-hurt/spike-driver-blues/african-american-music-american-folk-blues-old-time/music/track/smithsonian",
+        "type": "music"
+      },
+      "image": {
+        "src": "./assets/sound-study.svg",
+        "credit": "PB Labs · eigene Klangillustration, keine Notation des verlinkten Musikstücks",
+        "alt": "Abstrakte goldene Linien auf dunklem Grund"
+      }
+    },
+    {
+      "id": "vsk-023",
+      "category": "versinken",
+      "kind": "fact",
+      "title": "Eine Feder im Atem",
+      "teaser": "Hildegard von Bingen · A feather on the breath of God",
+      "body": [
+        "Gothic Voices unter Christopher Page widmen dieses Hyperion-Album Gesängen Hildegards von Bingen. Die Labelseite bietet Werkangaben und Hörmöglichkeiten. Eine mögliche Hörperspektive: Die Melodie kann wie ein langer Bogen wirken, der seine Richtung erst unterwegs preisgibt."
+      ],
+      "tags": [
+        "Mittelalter",
+        "Musik",
+        "Luft"
+      ],
+      "sources": [
+        {
+          "label": "Hyperion Records · offizielle Albumseite",
+          "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66039&vw=dc",
+          "note": "Legaler externer Anbieter; je nach Seite Hörprobe, Video oder vollständige Aufnahme.",
+          "checked": "2026-11-27"
+        }
+      ],
+      "media": {
+        "label": "Musik beim Anbieter öffnen",
+        "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66039&vw=dc",
+        "type": "music"
+      },
+      "image": {
+        "src": "./assets/sound-study.svg",
+        "credit": "PB Labs · eigene Klangillustration, keine Notation des verlinkten Musikstücks",
+        "alt": "Abstrakte goldene Linien auf dunklem Grund"
+      }
+    },
+    {
+      "id": "vsk-024",
+      "category": "versinken",
+      "kind": "fiction",
+      "title": "Bibliothek am Ende eines Nebels",
+      "teaser": "Ein erfundener Raum ohne Handlung.",
+      "body": [
+        "Die Bibliothek hat keine Uhr. Zwischen den Regalen liegt das Licht eines frühen Nachmittags, obwohl draußen Nacht ist. Auf einem Tisch wartet ein Buch, dessen Seiten beim Öffnen nur verschiedene Helligkeiten zeigen. Es muss nichts entziffert werden."
+      ],
+      "tags": [
+        "Raum",
+        "Licht",
+        "Kunst"
+      ],
+      "sources": [],
+      "image": {
+        "src": "./assets/still-7.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Ein abstraktes Fenster mit warmem Licht"
+      }
+    },
+    {
+      "id": "vsk-025",
+      "category": "versinken",
+      "kind": "fiction",
+      "title": "Die Karte eines unbewohnten Klangs",
+      "teaser": "Eine kleine imaginative Hörszene, ohne Audiodatei.",
+      "body": [
+        "Ein tiefer Ton wäre hier die Küste. Drei helle Töne wären Fenster in einem fernen Haus. Dazwischen läge keine Melodie, sondern eine weite Fläche, über die der Blick langsam gehen kann. Diese Klanglandschaft existiert nur als Text."
+      ],
+      "tags": [
+        "Klang",
+        "Raum",
+        "Karten"
+      ],
+      "sources": [],
+      "image": {
+        "src": "./assets/sound-study.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Eine abstrakte Landschaft aus goldenen Klanglinien"
+      }
+    },
+    {
+      "id": "and-001",
+      "category": "andersdenken",
+      "kind": "philosophy",
+      "title": "Wer träumt hier wen?",
+      "teaser": "Zhuangzis Schmetterling lässt die Perspektive offen.",
+      "body": [
+        "In der berühmten Erzählung träumt Zhuangzi, ein Schmetterling zu sein. Nach dem Erwachen bleibt die spielerische Umkehr: Könnte ein Schmetterling gerade Zhuangzi träumen? Das Gedankenbild verschiebt die Frage von der Gewissheit des Erlebens zur Sicherheit seiner Deutung. Es beweist keine verborgene Realität."
+      ],
+      "tags": [
+        "Philosophie",
+        "Perspektive",
+        "Grenzen"
+      ],
+      "sources": [
+        {
+          "label": "Stanford Encyclopedia of Philosophy · Zhuangzi",
+          "url": "https://plato.stanford.edu/entries/zhuangzi/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-002",
+      "category": "andersdenken",
+      "kind": "philosophy",
+      "title": "Alles über Farbe, aber noch nie Rot",
+      "teaser": "Marys Zimmer stellt Wissen neben Erleben.",
+      "body": [
+        "Frank Jacksons Gedankenexperiment lässt Mary alles Physikalische über Farbsehen wissen, während sie nur Schwarzweiß erlebt. Lernt sie etwas Neues, wenn sie erstmals Farbe sieht? Unterschiedliche Antworten führen zu unterschiedlichen Auffassungen von Wissen und Erfahrung. Das Beispiel ist ein Streitgegenstand, kein abgeschlossenes Experiment."
+      ],
+      "tags": [
+        "Philosophie",
+        "Farbe",
+        "Wissen"
+      ],
+      "sources": [
+        {
+          "label": "Stanford Encyclopedia of Philosophy · Qualia: The Knowledge Argument",
+          "url": "https://plato.stanford.edu/entries/qualia-knowledge/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-003",
+      "category": "andersdenken",
+      "kind": "philosophy",
+      "title": "Ab welchem Korn ist es ein Haufen?",
+      "teaser": "Das Sorites-Paradox wohnt in unscharfen Begriffen.",
+      "body": [
+        "Ein Sandkorn ist kein Haufen. Ein weiteres scheint diesen Status nicht zu ändern. Wiederholt man diesen Schritt, landet man bei einer Behauptung, die mit dem üblichen Wortgebrauch kollidiert. Der Stolperstein liegt in der Verbindung vieler plausibler Einzelschritte mit einem vagen Ausdruck."
+      ],
+      "tags": [
+        "Philosophie",
+        "Grenzen",
+        "Sprache"
+      ],
+      "sources": [
+        {
+          "label": "Stanford Encyclopedia of Philosophy · Sorites Paradox",
+          "url": "https://plato.stanford.edu/entries/sorites-paradox/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-004",
+      "category": "andersdenken",
+      "kind": "philosophy",
+      "title": "Eine gute Erklärung ist noch kein Beweis",
+      "teaser": "Abduktion sucht einen möglichen Zusammenhang.",
+      "body": [
+        "Wer zu einer Beobachtung eine plausible Erklärung findet, schließt anders als bei einer zwingenden Deduktion. Diese Form des erklärenden Schließens wird oft Abduktion genannt. Die attraktivste verfügbare Erklärung könnte trotzdem falsch sein oder eine bessere Konkurrentin noch unbekannt."
+      ],
+      "tags": [
+        "Philosophie",
+        "Wissen",
+        "Verbindung"
+      ],
+      "sources": [
+        {
+          "label": "Stanford Encyclopedia of Philosophy · Abduction",
+          "url": "https://plato.stanford.edu/entries/abduction/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-005",
+      "category": "andersdenken",
+      "kind": "philosophy",
+      "title": "Die Daten sprechen nicht immer nur eine Sprache",
+      "teaser": "Mehrere Erklärungen können mit denselben Beobachtungen vereinbar sein.",
+      "body": [
+        "Unterbestimmtheit bezeichnet in der Wissenschaftsphilosophie verschiedene Probleme, bei denen die vorhandene Evidenz eine Theorie nicht eindeutig festlegt. Das macht Forschung nicht beliebig. Es lenkt den Blick darauf, welche zusätzlichen Beobachtungen konkurrierende Erklärungen unterscheiden könnten."
+      ],
+      "tags": [
+        "Philosophie",
+        "Wissen",
+        "Modelle"
+      ],
+      "sources": [
+        {
+          "label": "Stanford Encyclopedia of Philosophy · Underdetermination of Scientific Theory",
+          "url": "https://plato.stanford.edu/entries/scientific-underdetermination/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-006",
+      "category": "andersdenken",
+      "kind": "philosophy",
+      "title": "Ein Modell darf manches weglassen",
+      "teaser": "Eine kleine Welt kann gerade durch Vereinfachung nützlich sein.",
+      "body": [
+        "Wissenschaftliche Modelle bilden nicht sämtliche Eigenschaften eines Gegenstands ab. Idealisierungen können Beziehungen sichtbar machen, die im Detailreichtum verschwinden. Der interessante Punkt ist nicht nur, wie ähnlich Modell und Welt sind, sondern auch, wofür die Ähnlichkeit gebraucht wird."
+      ],
+      "tags": [
+        "Philosophie",
+        "Modelle",
+        "Perspektive"
+      ],
+      "sources": [
+        {
+          "label": "Stanford Encyclopedia of Philosophy · Models in Science",
+          "url": "https://plato.stanford.edu/entries/models-science/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-007",
+      "category": "andersdenken",
+      "kind": "philosophy",
+      "title": "Verstehen hat einen Standort",
+      "teaser": "Bei Gadamer ist der Horizont kein leerer Hintergrund.",
+      "body": [
+        "In Gadamers Hermeneutik verstehen wir aus einer geschichtlich geprägten Situation heraus. Der eigene Horizont kann sich im Umgang mit einem Text oder Gegenüber verändern. Als Lesart heißt das: Ein veränderter Blick kann neues Verstehen ermöglichen, ohne dass der Gegenstand selbst umgebaut wurde."
+      ],
+      "tags": [
+        "Philosophie",
+        "Perspektive",
+        "Verbindung"
+      ],
+      "sources": [
+        {
+          "label": "Stanford Encyclopedia of Philosophy · Hans-Georg Gadamer",
+          "url": "https://plato.stanford.edu/entries/gadamer/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-008",
+      "category": "andersdenken",
+      "kind": "philosophy",
+      "title": "Ein Gegenstand hat mehr als einen Gebrauch",
+      "teaser": "Technik bekommt Bedeutung auch durch ihre Verwendung.",
+      "body": [
+        "Eine Kamera kann Familienbild, Messinstrument oder Überwachungsgerät sein. Die Technikphilosophie beschreibt mit interpretativer Flexibilität oder Multistabilität, dass Form und Bedeutung eines Artefakts nicht unabhängig vom Gebrauch feststehen. Das konkrete Beispiel hier ist eine eigene Veranschaulichung dieses Gedankens."
+      ],
+      "tags": [
+        "Philosophie",
+        "Technik",
+        "Perspektive"
+      ],
+      "sources": [
+        {
+          "label": "Stanford Encyclopedia of Philosophy · Computing and Moral Responsibility",
+          "url": "https://plato.stanford.edu/archives/win2020/entries/computing-responsibility/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-009",
+      "category": "andersdenken",
+      "kind": "philosophy",
+      "title": "Das Schiff mit zwei Fortsetzungen",
+      "teaser": "Theseus lässt die Identität auf zwei Werften landen.",
+      "body": [
+        "Ersetzt man nach und nach alle Planken eines Schiffs, scheint es dasselbe Schiff zu bleiben. Baut jemand aus den ausrangierten Originalteilen ein zweites, wird die Sache schwieriger. Welche Kontinuität zählt: Material, Form, Geschichte oder Gebrauch? Das Gedankenexperiment zwingt nicht zu genau einer Antwort."
+      ],
+      "tags": [
+        "Philosophie",
+        "Zeit",
+        "Reparatur"
+      ],
+      "sources": [
+        {
+          "label": "Stanford Encyclopedia of Philosophy · Identity Over Time",
+          "url": "https://plato.stanford.edu/entries/identity-time/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-010",
+      "category": "andersdenken",
+      "kind": "philosophy",
+      "title": "Die Ästhetik braucht kein Museum",
+      "teaser": "Auch ein Türgriff kann Teil einer Erfahrung sein.",
+      "body": [
+        "Die Ästhetik des Alltags betrachtet Dinge und Tätigkeiten außerhalb klassischer Kunstorte. Ein angenehmer Griff, eine störende Oberfläche oder der Rhythmus eines Wegs können dazugehören. Die philosophische Verschiebung besteht darin, ästhetisches Erleben nicht nur vor eingerahmten Bildern zu suchen."
+      ],
+      "tags": [
+        "Philosophie",
+        "Kunst",
+        "Alltag"
+      ],
+      "sources": [
+        {
+          "label": "Stanford Encyclopedia of Philosophy · Aesthetics of the Everyday",
+          "url": "https://plato.stanford.edu/entries/aesthetics-of-everyday/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-011",
+      "category": "andersdenken",
+      "kind": "fact",
+      "title": "Drei Würfel ohne eindeutigen Champion",
+      "teaser": "A schlägt häufiger B, B häufiger C und C häufiger A.",
+      "body": [
+        "Nimm drei faire Würfel mit diesen Seiten: A = 2, 2, 4, 4, 9, 9. B = 1, 1, 6, 6, 8, 8. C = 3, 3, 5, 5, 7, 7.",
+        "Bei unabhängigen Würfen gewinnt A gegen B in 20 von 36 Paarungen. Ebenso B gegen C und C gegen A. „Häufiger größer“ ist also keine transitive Rangordnung. Diese Zahlen sind eine direkt auszählbare Illustration, keine Glücksspielstrategie."
+      ],
+      "tags": [
+        "Mathematik",
+        "Paradoxien",
+        "Ordnung"
+      ],
+      "sources": [
+        {
+          "label": "Wolfram MathWorld · Nontransitive Dice",
+          "url": "https://mathworld.wolfram.com/NontransitiveDice.html",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-012",
+      "category": "andersdenken",
+      "kind": "fact",
+      "title": "Eine Seite, ein Rand",
+      "teaser": "Das Möbiusband lässt die Innenseite verschwinden.",
+      "body": [
+        "Ein idealisiertes Band, dessen Enden nach einer halben Drehung verbunden werden, bildet eine nichtorientierbare Fläche mit einem Rand. Man kann über seine Oberfläche zurück zum Ausgangspunkt gelangen und dabei auf die vermeintliche Gegenseite kommen, ohne eine Kante zu überschreiten."
+      ],
+      "tags": [
+        "Mathematik",
+        "Grenzen",
+        "Perspektive"
+      ],
+      "sources": [
+        {
+          "label": "Wolfram MathWorld · Möbius Strip",
+          "url": "https://mathworld.wolfram.com/MoebiusStrip.html",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-013",
+      "category": "andersdenken",
+      "kind": "fact",
+      "title": "Ein volles Hotel hat noch Platz",
+      "teaser": "Unendlich voll bedeutet etwas anderes als endlich voll.",
+      "body": [
+        "In Hilberts mathematischem Hotel sind die Zimmer mit den positiven ganzen Zahlen nummeriert. Zieht jeder Gast aus Zimmer n in Zimmer 2n, werden alle ungeraden Zimmer frei. Das zeigt eine Eigenschaft abzählbar unendlicher Mengen; es beschreibt kein tatsächlich baubares Hotel."
+      ],
+      "tags": [
+        "Mathematik",
+        "Paradoxien",
+        "Unendlichkeit"
+      ],
+      "sources": [
+        {
+          "label": "Institute for Advanced Study · Hospitality at the Hilbert Hotel",
+          "url": "https://www.ias.edu/ideas/2016/pires-hilbert-hotel",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-014",
+      "category": "andersdenken",
+      "kind": "fact",
+      "title": "Besser in jeder Gruppe, schlechter insgesamt",
+      "teaser": "Eine erfundene Zählung zeigt Simpsons Paradox.",
+      "body": [
+        "Zwei Suchverfahren werden in zwei unterschiedlich schweren Archiven getestet. Im leichten Archiv findet A 9 von 10 Dokumenten, B 80 von 100. Im schweren Archiv findet A 20 von 100, B 1 von 10. A hat in beiden Gruppen die bessere Trefferquote.",
+        "Zusammen findet A 29 von 110, B aber 81 von 110 Dokumenten. Die unterschiedlichen Gruppengewichte kehren den Gesamteindruck um. Die Zahlen sind ein eigenes Rechenbeispiel; welche Gruppierung sachlich sinnvoll ist, hängt von der Fragestellung ab."
+      ],
+      "tags": [
+        "Mathematik",
+        "Paradoxien",
+        "Perspektive"
+      ],
+      "sources": [
+        {
+          "label": "Stanford Encyclopedia of Philosophy · Simpson’s Paradox",
+          "url": "https://plato.stanford.edu/entries/paradox-simpson/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-015",
+      "category": "andersdenken",
+      "kind": "fact",
+      "title": "Genauso viele gerade Zahlen?",
+      "teaser": "Eine Zuordnung kann sich gegen das Bauchgefühl stellen.",
+      "body": [
+        "Jeder positiven ganzen Zahl n lässt sich genau eine gerade Zahl 2n zuordnen, und jede positive gerade Zahl kommt dabei vor. Deshalb haben diese beiden unendlichen Mengen dieselbe Mächtigkeit. Bei endlichen Mengen wäre eine echte Teilmenge immer kleiner."
+      ],
+      "tags": [
+        "Mathematik",
+        "Unendlichkeit",
+        "Grenzen"
+      ],
+      "sources": [
+        {
+          "label": "Stanford Encyclopedia of Philosophy · Infinity",
+          "url": "https://plato.stanford.edu/entries/infinity/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-016",
+      "category": "andersdenken",
+      "kind": "association",
+      "title": "Ein Planet als Bibliothek ohne Lesesaal",
+      "teaser": "Eine frei schwebende Welt begegnet einem stillen Archiv.",
+      "body": [
+        "PSO J318.5−22 umkreist keinen Stern. In dieser freien Assoziation wird daraus eine Bibliothek ohne zentral beleuchteten Saal: nicht leer, nur ohne das vertraute Zentrum. Das Bild ist erfunden; es behauptet nichts über eine wirkliche Bibliothek im All."
+      ],
+      "tags": [
+        "Astronomie",
+        "Dunkelheit",
+        "Perspektive"
+      ],
+      "sources": [
+        {
+          "label": "University of Hawaiʻi · Ein planetenmassiges Objekt ohne Stern",
+          "url": "https://www.hawaii.edu/news/2013/10/10/strange-lonely-planet-found-without-a-star/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-017",
+      "category": "andersdenken",
+      "kind": "association",
+      "title": "Wasser als Satzzeichen",
+      "teaser": "MONIAC trifft auf ein Gedicht.",
+      "body": [
+        "Im Wasserrechner stehen Flüsse für wirtschaftliche Größen. In einem ausgedachten Gedicht könnten dieselben Ventile Kommas sein: Sie verändern, wie ein Gedanke weiterläuft. Die Verbindung gehört zur Sprache dieser Karte, nicht zur historischen Funktion des Geräts."
+      ],
+      "tags": [
+        "Wasser",
+        "Sprache",
+        "Modelle"
+      ],
+      "sources": [
+        {
+          "label": "Science Museum Group · Phillips Economic Computer, 1949",
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co64127/phillips-economic-computer",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-018",
+      "category": "andersdenken",
+      "kind": "association",
+      "title": "Der Becher als Gesprächsmodell",
+      "teaser": "Dasselbe Material antwortet auf anderes Licht.",
+      "body": [
+        "Der Lycurgus-Becher erscheint je nach Beleuchtung grünlich oder rötlich. Als Metapher lässt er an Gespräche denken: Ein veränderter Zugang kann etwas anderes sichtbar machen. Menschen funktionieren damit nicht wie Glas; das ist eine bildliche Übertragung, keine psychologische Erklärung."
+      ],
+      "tags": [
+        "Licht",
+        "Farbe",
+        "Perspektive"
+      ],
+      "sources": [
+        {
+          "label": "British Museum · The Lycurgus Cup",
+          "url": "https://artsandculture.google.com/asset/the-lycurgus-cup/aQG7BXUoa7xwug",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-019",
+      "category": "andersdenken",
+      "kind": "association",
+      "title": "Eine Stadt in einem Organismus",
+      "teaser": "Die Siphonophore bekommt einen Stadtplan.",
+      "body": [
+        "Die arbeitsteiligen Zooide einer Siphonophore erinnern hier an Werkstätten, Küchen und Verkehrswege. Das ist eine bewusst gewählte Ähnlichkeit zwischen ganz unterschiedlichen Systemen. Sie erlaubt ein Bild von Zusammenarbeit, ersetzt aber keine biologische Beschreibung."
+      ],
+      "tags": [
+        "Natur",
+        "Architektur",
+        "Verbindung"
+      ],
+      "sources": [
+        {
+          "label": "NOAA Ocean Exploration · Siphonophore",
+          "url": "https://oceanexplorer.noaa.gov/multimedia/okeanos-explorations-seascape-alaska-ex2304-gallery-media-dive01-siphonophore/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-020",
+      "category": "andersdenken",
+      "kind": "association",
+      "title": "Ein Gedanke aus biologischem Glas",
+      "teaser": "Glasschwamm und Zeichentisch stehen nebeneinander.",
+      "body": [
+        "Das Siliziumdioxid-Gitter eines Glasschwamms lässt sich als Skizze eines unmöglichen Pavillons betrachten. Plötzlich sieht ein Tierkörper wie ein Architekturentwurf aus. Die Ähnlichkeit ist eine ästhetische Einladung; ein historischer Einfluss ist damit nicht behauptet."
+      ],
+      "tags": [
+        "Natur",
+        "Architektur",
+        "Material"
+      ],
+      "sources": [
+        {
+          "label": "NOAA · What is a glass sponge?",
+          "url": "https://oceanservice.noaa.gov/facts/glass-sponge.html",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-021",
+      "category": "andersdenken",
+      "kind": "association",
+      "title": "Eine Farbkarte für Erinnerungen",
+      "teaser": "Das Cyanometer bekommt einen erfundenen zweiten Beruf.",
+      "body": [
+        "Ein Cyanometer vergleicht Blautöne des Himmels. Die gedachte Schwester dieses Instruments würde keine Gefühle messen, sondern Farben für erinnerte Nachmittage sammeln. Ein ausdrücklich unmögliches Gerät mit einer einfachen poetischen Aufgabe: Nuancen bewahren."
+      ],
+      "tags": [
+        "Farbe",
+        "Messen",
+        "Zeit"
+      ],
+      "sources": [
+        {
+          "label": "Musée d’histoire des sciences, Genève · Saussure und das Cyanometer",
+          "url": "https://institutions.ville-geneve.ch/fileadmin/user_upload/mhn/images/votre_visite/site_mhs/aide_saussure_e.pdf",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-022",
+      "category": "andersdenken",
+      "kind": "association",
+      "title": "Ein Astrolabium für Fragen",
+      "teaser": "Ein Sternnetz lässt sich auch als Bild einer Suche lesen.",
+      "body": [
+        "Beim Astrolabium dreht sich ein Sternnetz über einer Projektion. In der freien Metapher dieser Karte wären die Sterne Fragen und die Einlegescheibe eine Situation. Eine Drehung verändert die Nachbarschaften. Das historische Instrument konnte selbstverständlich keine Fragen beantworten."
+      ],
+      "tags": [
+        "Astronomie",
+        "Modelle",
+        "Perspektive"
+      ],
+      "sources": [
+        {
+          "label": "Whipple Museum, Cambridge · A Medieval Astrolabe",
+          "url": "https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/astronomy/medieval-astrolabe",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-023",
+      "category": "andersdenken",
+      "kind": "association",
+      "title": "Das Archiv der Wellen",
+      "teaser": "Eine Lehrkarte wird zum Bild für bewegliches Wissen.",
+      "body": [
+        "Eine Mattang-Stabkarte veranschaulicht Wellengänge, keine festgelegte Inselregion. Als poetische Lesart ist sie ein Archiv von Beziehungen. Manche Dinge werden verständlicher, wenn man ihre Wirkungen aufeinander betrachtet und nicht nur ihre Umrisse. Das ist eine Interpretation der Karte, kein Zitat ihrer Erbauer."
+      ],
+      "tags": [
+        "Wasser",
+        "Verbindung",
+        "Wissen"
+      ],
+      "sources": [
+        {
+          "label": "Library of Congress · Marshall Islands stick chart, Mattang type",
+          "url": "https://www.loc.gov/item/2010586180/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-024",
+      "category": "andersdenken",
+      "kind": "association",
+      "title": "Reparatur als Handschrift",
+      "teaser": "Ein Riss bekommt im Gedankenbild eine zweite Bedeutung.",
+      "body": [
+        "Forschung zu römischem Beton untersucht mögliche Beiträge kalkreicher Bestandteile zur Rissheilung. Hier wird der Riss zum Satz, den ein Material später weiterschreibt. Das ist eine poetische Analogie, keine allgemeine Behauptung darüber, dass Schäden notwendig oder gut seien."
+      ],
+      "tags": [
+        "Material",
+        "Reparatur",
+        "Zeit"
+      ],
+      "sources": [
+        {
+          "label": "Seymour et al. · Hot mixing, Science Advances, 2023",
+          "url": "https://dspace.mit.edu/entities/publication/d114c164-bdc9-4faf-8cd2-bb5075acfc0e",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "and-025",
+      "category": "andersdenken",
+      "kind": "association",
+      "title": "Eine Kachel als unregelmäßiger Takt",
+      "teaser": "Geometrische Regeln begegnen einer erfundenen Musik.",
+      "body": [
+        "Eine aperiodische Pflasterung ist geordnet, ohne einen periodisch wiederholten Grundblock zu besitzen. Als musikalische Metapher könnte sie ein Stück sein, dessen Regeln wiederkehren, aber dessen ganze Strophe nie identisch zurückkommt. Diese Zuordnung ist erfunden und keine Analyse eines konkreten Musikwerks."
+      ],
+      "tags": [
+        "Mathematik",
+        "Musik",
+        "Muster"
+      ],
+      "sources": [
+        {
+          "label": "Smith, Myers, Kaplan & Goodman-Strauss · An aperiodic monotile",
+          "url": "https://cs.uwaterloo.ca/~csk/hat/",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "abs-001",
+      "category": "absurdistan",
+      "kind": "fact",
+      "title": "Der Tiger mit eingebauter Orgel",
+      "teaser": "Ein historischer Automat hat eine sehr deutliche politische Haltung.",
+      "body": [
+        "Tipu’s Tiger aus dem späten 18. Jahrhundert zeigt einen Tiger über einem europäischen Soldaten. Ein Mechanismus mit Orgel erzeugt Laute; Teile der Figur bewegen sich. Der Automat stand im Zusammenhang mit Tipu Sultans Widerstand gegen die britische Ostindien-Kompanie. Ein Klangobjekt mit unmissverständlicher Bildsprache."
+      ],
+      "tags": [
+        "Geschichte",
+        "Mechanik",
+        "Musik"
+      ],
+      "sources": [
+        {
+          "label": "Victoria and Albert Museum · Tipu’s Tiger",
+          "url": "https://www.vam.ac.uk/articles/tipus-tiger",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "abs-002",
+      "category": "absurdistan",
+      "kind": "fact",
+      "title": "Ein Mönch mit Federantrieb",
+      "teaser": "Ein Gebet kann in einer Maschine stecken.",
+      "body": [
+        "Ein kleiner Renaissance-Automat in Mönchsgestalt bewegt sich mit einem federgetriebenen Mechanismus. Seine genaue Herkunft ist unsicher. Eine Erzählung verbindet ihn mit einem Heilungswunder am spanischen Hof; das ist eine überlieferte Legende und keine gesicherte Entstehungsgeschichte."
+      ],
+      "tags": [
+        "Geschichte",
+        "Mechanik",
+        "Grenzen"
+      ],
+      "sources": [
+        {
+          "label": "The Metropolitan Museum of Art · Art in Motion",
+          "url": "https://www.metmuseum.org/exhibitions/listings/2019/making-marvels-science-splendor/art-in-motion",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "abs-003",
+      "category": "absurdistan",
+      "kind": "fact",
+      "title": "Der Turm beißt auf seinen Schild",
+      "teaser": "Die Lewis-Schachfiguren besitzen ungewöhnliche Türme.",
+      "body": [
+        "Einige Wächterfiguren aus dem Fund der Lewis-Schachfiguren beißen in ihre Schilde. Sie werden als Berserker gedeutet und übernehmen im modernen Vergleich die Rolle des Turms. Die grimmige Gebärde verbindet das Spielzeug mit nordischer Überlieferung. Ihre Absicht als Witz ist damit nicht bewiesen."
+      ],
+      "tags": [
+        "Geschichte",
+        "Spiel",
+        "Kunst"
+      ],
+      "sources": [
+        {
+          "label": "The Met · Madden’s Moves: die Berserker der Lewis-Schachfiguren",
+          "url": "https://www.metmuseum.org/exhibitions/listings/2011/the-game-of-kings-medieval-ivory-chessmen-from-the-isle-of-lewis/exhibition-blog/game-of-kings/blog/maddens-moves",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "abs-004",
+      "category": "absurdistan",
+      "kind": "fact",
+      "title": "Eine Uhr als kleines Welttheater",
+      "teaser": "Hier wird nicht nur die Stunde angezeigt.",
+      "body": [
+        "Die Millennium Clock im National Museum of Scotland ist eine animatronische Skulptur von 1999. Krypta, Kirchenschiff, Glockenturm und Spitze erinnern an eine Kathedrale. Bewegte Szenen stellen Tragödien und Hoffnungen des vergangenen Jahrtausends dar. Das Uhrwerk wurde zum Träger von Geschichten."
+      ],
+      "tags": [
+        "Geschichte",
+        "Mechanik",
+        "Zeit"
+      ],
+      "sources": [
+        {
+          "label": "National Museums Scotland · The Millennium Clock",
+          "url": "https://www.nms.ac.uk/collections/search/object?entry=603649",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "abs-005",
+      "category": "absurdistan",
+      "kind": "fact",
+      "title": "Der Ärger über schlechtes Kupfer blieb erhalten",
+      "teaser": "Eine Beschwerde reiste fast vier Jahrtausende durch die Zeit.",
+      "body": [
+        "Eine Keilschrifttafel aus Ur, ungefähr um 1750 v. Chr., enthält Nannis Beschwerde an den Händler Ea-Naṣir. Es geht unter anderem um minderwertiges Kupfer und den Umgang mit einem Boten. Ein alltäglicher Geschäftskonflikt wurde durch sein Material zum Museumsstück."
+      ],
+      "tags": [
+        "Geschichte",
+        "Sprache",
+        "Alltag"
+      ],
+      "sources": [
+        {
+          "label": "UCL · The Legend of Ea-Naṣir, 2026",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10220181/1/Ea%20Nasir%20JCA%20accepted.pdf",
+          "checked": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "abs-006",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Amt für unzuständige Wolken",
+      "teaser": "Ein Formular, das am Himmel liegen blieb.",
+      "body": [
+        "Die Wolke beantragte eine andere Form. Das Amt erklärte sich nur für Nebel zuständig. Nach drei Wochen war der Antrag verdunstet. Damit galt die Angelegenheit als wetterbedingt erledigt."
+      ],
+      "tags": [
+        "Luft",
+        "Bürokratie",
+        "Sprache"
+      ],
+      "sources": []
+    },
+    {
+      "id": "abs-007",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Der Rückwärtskompass",
+      "teaser": "Eine Erfindung mit vollständiger Orientierung über gestern.",
+      "body": [
+        "Der Rückwärtskompass zeigte zuverlässig an, wo man vorhin gewesen war. Auf die Frage nach seinem Nutzen erklärte der Erfinder: „Endlich verirrt man sich mit belastbarer Vorgeschichte.“"
+      ],
+      "tags": [
+        "Erfindung",
+        "Zeit",
+        "Messen"
+      ],
+      "sources": []
+    },
+    {
+      "id": "abs-008",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Sitzung des Vereins zur Auflösung von Vereinen",
+      "teaser": "Die Tagesordnung war ausgesprochen kurz.",
+      "body": [
+        "Man beschloss einstimmig, den Verein aufzulösen. Danach stellte jemand fest, dass der Beschluss ohne Verein niemandem mehr gehörte. Vorsichtshalber setzte man die Sitzung fort."
+      ],
+      "tags": [
+        "Bürokratie",
+        "Paradoxien",
+        "Sprache"
+      ],
+      "sources": []
+    },
+    {
+      "id": "abs-009",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Der stillgelegte Echo-Schalter",
+      "teaser": "Wegen Überbesetzung geschlossen.",
+      "body": [
+        "Am Echo-Schalter saßen drei Beamte. Jeder wiederholte die Aussage des anderen. Als ein Besucher „Ist hier jemand zuständig?“ rief, wurde das Gebäude wegen inhaltlicher Überlastung geräumt."
+      ],
+      "tags": [
+        "Klang",
+        "Bürokratie",
+        "Sprache"
+      ],
+      "sources": []
+    },
+    {
+      "id": "abs-010",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Ein Patent auf die Zwischenzeit",
+      "teaser": "Endlich gehört auch das Warten jemandem.",
+      "body": [
+        "Ein Tüftler patentierte die Zeit zwischen zwei guten Ideen. Leider durfte er während dieser Zeit keine neue Idee haben, ohne die eigene Erfindung zu verkürzen. Das Patent liegt seitdem sehr erfolgreich brach."
+      ],
+      "tags": [
+        "Erfindung",
+        "Zeit",
+        "Paradoxien"
+      ],
+      "sources": []
+    },
+    {
+      "id": "abs-011",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Der höfliche Meteorit",
+      "teaser": "Ein Himmelskörper mit tadellosen Umgangsformen.",
+      "body": [
+        "Der Meteorit klopfte dreimal an die Atmosphäre und fragte, ob es gerade passe. Die Erde war mit Gezeiten beschäftigt. Er hinterließ eine Visitenkarte und zog eine elliptische Runde."
+      ],
+      "tags": [
+        "Astronomie",
+        "Humor",
+        "Bewegung"
+      ],
+      "sources": []
+    },
+    {
+      "id": "abs-012",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Die Verordnung über ungeplante Blumen",
+      "teaser": "Jeder Zufall benötigt eine ordentliche Beetnummer.",
+      "body": [
+        "Die Stadt beschloss, wild wachsende Blumen fortan als spontane Grünflächenmitarbeiter zu führen. Der Löwenzahn verweigerte die Unterschrift. Er sei bereits anderweitig verwurzelt."
+      ],
+      "tags": [
+        "Natur",
+        "Bürokratie",
+        "Sprache"
+      ],
+      "sources": []
+    },
+    {
+      "id": "abs-013",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Die Maschine zum Verlieren von Bedienungsanleitungen",
+      "teaser": "Ein Gerät, das sich restlos selbst erklärt.",
+      "body": [
+        "Der erste Prototyp verlor seine Anleitung noch vor der Auslieferung. Damit war die Funktion zweifelsfrei nachgewiesen. Wie man ihn ausschaltete, blieb dem Forschungsstand entsprechend offen."
+      ],
+      "tags": [
+        "Erfindung",
+        "Technik",
+        "Paradoxien"
+      ],
+      "sources": []
+    },
+    {
+      "id": "abs-014",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Das Museum der beinahe gefundenen Dinge",
+      "teaser": "Die Vitrinen sind sorgfältig beschriftet.",
+      "body": [
+        "In der ersten Vitrine lag der Schlüssel, den jemand beinahe gefunden hätte. In der zweiten der Gedanke kurz vor seiner Formulierung. Die dritte blieb frei: Dort wäre fast noch etwas gewesen."
+      ],
+      "tags": [
+        "Museum",
+        "Grenzen",
+        "Humor"
+      ],
+      "sources": []
+    },
+    {
+      "id": "abs-015",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Der ordnungsgemäß geduldete Widerspruch",
+      "teaser": "Eine Behörde beaufsichtigt ihre eigene Unruhe.",
+      "body": [
+        "Jeder Widerspruch erhielt einen genehmigten Widerspruch zum Widerspruch. Bald war das Archiv so ausgewogen, dass nichts mehr entschieden werden konnte. Die Behörde meldete erstmals vollständige Harmonie."
+      ],
+      "tags": [
+        "Bürokratie",
+        "Ordnung",
+        "Paradoxien"
+      ],
+      "sources": []
+    },
+    {
+      "id": "abs-016",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Die horizontale Karriereleiter",
+      "teaser": "Eine Beförderung ohne Höhenunterschied.",
+      "body": [
+        "Der Schreiner legte die Karriereleiter auf den Boden. Alle kamen nun gleichzeitig an die oberste Sprosse. Die Personalabteilung sprach von einer unerwartet flachen Entwicklung."
+      ],
+      "tags": [
+        "Erfindung",
+        "Alltag",
+        "Sprache"
+      ],
+      "sources": []
+    },
+    {
+      "id": "abs-017",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Vollzug des unauffälligen Verschwindens",
+      "teaser": "Der Nebel hatte seine Unterlagen vollständig dabei.",
+      "body": [
+        "Der Nebel erschien zur Identitätsfeststellung. Man verlangte ein schärferes Passbild. Er zog sich höflich zurück und wurde seitdem wegen mangelnder Kontur gesucht."
+      ],
+      "tags": [
+        "Luft",
+        "Bürokratie",
+        "Grenzen"
+      ],
+      "sources": []
+    },
+    {
+      "id": "abs-018",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Der Prokrastinator mit Sofortfunktion",
+      "teaser": "Ein Schalter erledigt das Aufschieben auf der Stelle.",
+      "body": [
+        "Das Gerät verschob alles unverzüglich auf später. Nach Jahren der Entwicklung fehlte nur der Startknopf. Seine Montage war bereits verbindlich für einen geeigneteren Zeitpunkt vorgesehen."
+      ],
+      "tags": [
+        "Erfindung",
+        "Zeit",
+        "Humor"
+      ],
+      "sources": []
+    },
+    {
+      "id": "abs-019",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Das schwarze Brett der weißen Flecken",
+      "teaser": "Hier hängen die Angebote des Unbekannten.",
+      "body": [
+        "Gesucht wurde jemand für eine Stelle, deren Tätigkeit noch nicht entdeckt war. Voraussetzungen: Erfahrung im Nichtwissen und ein gepflegtes Verhältnis zu leeren Karten. Die Bewerbung durfte unvollständig sein."
+      ],
+      "tags": [
+        "Wissen",
+        "Karten",
+        "Sprache"
+      ],
+      "sources": []
+    },
+    {
+      "id": "abs-020",
+      "category": "absurdistan",
+      "kind": "fiction",
+      "title": "Die Tasse mit dem zweiten Boden",
+      "teaser": "Ein kleines Wunder der angewandten Zweckfreiheit.",
+      "body": [
+        "Unter dem ersten Boden lag ein zweiter. Unter dem zweiten stand: „Dieser Raum bleibt aus Gründen der Vorstellungskraft unmöbliert.“ Die Tasse fasste dadurch keinen Tropfen mehr, aber einen ganzen Nachmittag."
+      ],
+      "tags": [
+        "Alltag",
+        "Architektur",
+        "Humor"
+      ],
+      "sources": []
+    },
+    {
+      "id": "vwl-001",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Am Rand des Wassers",
+      "teaser": "Eine kleine Stelle ohne Auftrag.",
+      "body": [
+        "Der Steg endet.\nDas Wasser übernimmt.\nKeiner von beiden\nmuss sich erklären."
+      ],
+      "tags": [
+        "Wasser",
+        "Ruhe",
+        "Grenzen"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-1.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-002",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Nach dem Regen",
+      "teaser": "Die Straße hat etwas vom Himmel behalten.",
+      "body": [
+        "Zwischen zwei Pflastersteinen\nliegt noch ein Stück Wolke.\nEin Schritt daneben\nund es bleibt ganz."
+      ],
+      "tags": [
+        "Wasser",
+        "Licht",
+        "Alltag"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-2.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-003",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Das offene Fenster",
+      "teaser": "Ein Zimmer wird nicht größer und lässt doch mehr herein.",
+      "body": [
+        "Der Vorhang hebt sich.\nFür einen Augenblick\nhat die Luft\neine sichtbare Form."
+      ],
+      "tags": [
+        "Luft",
+        "Raum",
+        "Bewegung"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-3.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-004",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Spätes Licht",
+      "teaser": "Nichts davon muss aufgehoben werden.",
+      "body": [
+        "An der Wand\nwandert ein heller Fleck.\nEr weiß nichts\nvon seiner Schönheit."
+      ],
+      "tags": [
+        "Licht",
+        "Zeit",
+        "Ruhe"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-4.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-005",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Der unbesetzte Garten",
+      "teaser": "Ein Ort darf gerade niemandem etwas zeigen.",
+      "body": [
+        "Die Bank ist leer.\nDer Garten hält\nkeine Rede darüber.\nEin Blatt fällt trotzdem."
+      ],
+      "tags": [
+        "Natur",
+        "Ruhe",
+        "Alltag"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-5.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-006",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Zwischen den Tönen",
+      "teaser": "Eine Stille mit offenen Rändern.",
+      "body": [
+        "Der letzte Ton\nist schon gegangen.\nDer Raum\nhält noch die Tür."
+      ],
+      "tags": [
+        "Musik",
+        "Raum",
+        "Ruhe"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-6.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-007",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Nebel über einer Wiese",
+      "teaser": "Nicht alles muss bis zum Horizont reichen.",
+      "body": [
+        "Das Gras ist nah.\nDer Hügel nur vermutet.\nDazwischen\nhat die Welt frei."
+      ],
+      "tags": [
+        "Luft",
+        "Natur",
+        "Grenzen"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-7.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-008",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Ein Blatt auf dunklem Wasser",
+      "teaser": "Eine kleine Reise ohne Geschichte.",
+      "body": [
+        "Das Blatt dreht sich\num seinen Schatten.\nDer Bach nennt das\nnicht Fortschritt."
+      ],
+      "tags": [
+        "Wasser",
+        "Bewegung",
+        "Natur"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-8.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-009",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Der Himmel im Treppenhaus",
+      "teaser": "Eine alltägliche Öffnung nach oben.",
+      "body": [
+        "Durch das kleine Fenster\nfällt ein großes Blau.\nAuf jeder Stufe\nliegt ein anderer Rand."
+      ],
+      "tags": [
+        "Farbe",
+        "Architektur",
+        "Perspektive"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-1.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-010",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Das Zimmer im Winter",
+      "teaser": "Ein warmes Licht, sonst keine Handlung.",
+      "body": [
+        "Eine Lampe.\nDraußen eine frühe Nacht.\nDas Buch bleibt offen\nauf keiner bestimmten Seite."
+      ],
+      "tags": [
+        "Licht",
+        "Dunkelheit",
+        "Raum"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-2.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-011",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Fernes Boot",
+      "teaser": "Ein Punkt verändert die Größe des Abends.",
+      "body": [
+        "Auf dem See\nwird ein Boot kleiner.\nDer Abstand\nbraucht kein Ende."
+      ],
+      "tags": [
+        "Wasser",
+        "Raum",
+        "Ruhe"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-3.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-012",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Der Kiesel",
+      "teaser": "Ein kleines Gewicht in der Landschaft.",
+      "body": [
+        "Der Stein liegt da,\nals hätte er nie\nmit etwas anderem\ngerechnet."
+      ],
+      "tags": [
+        "Natur",
+        "Zeit",
+        "Material"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-4.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-013",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Unbenannte Farbe",
+      "teaser": "Ein Ton zwischen zwei vertrauten Worten.",
+      "body": [
+        "Nicht ganz Grün.\nNicht mehr Grau.\nDer Morgen\nlässt es dabei."
+      ],
+      "tags": [
+        "Farbe",
+        "Licht",
+        "Sprache"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-5.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-014",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Bäume hinter Glas",
+      "teaser": "Ein stilles Doppelbild.",
+      "body": [
+        "Im Fenster\nsteht der Baum zweimal.\nEinmal draußen.\nEinmal aus Licht."
+      ],
+      "tags": [
+        "Licht",
+        "Natur",
+        "Perspektive"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-6.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-015",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Die leere Seite",
+      "teaser": "Eine Möglichkeit ohne Verpflichtung.",
+      "body": [
+        "Das Papier\nhat heute nichts verlangt.\nEs liegt\nin guter Gesellschaft."
+      ],
+      "tags": [
+        "Sprache",
+        "Ruhe",
+        "Alltag"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-7.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-016",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Ein anderer Maßstab",
+      "teaser": "Die Zeit eines kleinen Vorgangs.",
+      "body": [
+        "Ein Tropfen\nfindet die Spitze des Blatts.\nDer Nachmittag\nkann warten."
+      ],
+      "tags": [
+        "Wasser",
+        "Zeit",
+        "Natur"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-8.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-017",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Im Hof",
+      "teaser": "Ein Geräusch darf einfach vorbeikommen.",
+      "body": [
+        "Irgendwo\nwird ein Fenster geschlossen.\nEine Amsel\nsetzt ihren Satz fort."
+      ],
+      "tags": [
+        "Klang",
+        "Alltag",
+        "Natur"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-1.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-018",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Vor dem ersten Stern",
+      "teaser": "Ein Himmel, der noch nichts hervorhebt.",
+      "body": [
+        "Das Blau wird tiefer.\nEs gibt nichts zu zählen.\nFür einen Moment\nsind alle Sterne Möglichkeit."
+      ],
+      "tags": [
+        "Astronomie",
+        "Farbe",
+        "Dunkelheit"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-2.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-019",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Die Pause des Schattens",
+      "teaser": "Eine Bewegung, die niemand antreibt.",
+      "body": [
+        "Der Schatten\nrückt um eine Handbreit.\nDie Mauer\nbleibt einverstanden."
+      ],
+      "tags": [
+        "Licht",
+        "Zeit",
+        "Architektur"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-3.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    },
+    {
+      "id": "vwl-020",
+      "category": "verweilen",
+      "kind": "fiction",
+      "title": "Kein nächster Satz",
+      "teaser": "Manche Fragmente lassen ihre Tür offen.",
+      "body": [
+        "Ein Faden Licht\nauf dem Fußboden.\nHier\nkönnte es enden."
+      ],
+      "tags": [
+        "Licht",
+        "Ruhe",
+        "Grenzen"
+      ],
+      "sources": [],
+      "format": "poem",
+      "image": {
+        "src": "./assets/still-4.svg",
+        "credit": "PB Labs · originale digitale Illustration, 2026",
+        "alt": "Abstrakte ruhige Landschaft aus Licht, Wasser und geometrischen Formen"
+      }
+    }
+  ]
+}

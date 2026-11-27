@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#102b28">
+  <meta name="description" content="Ein digitaler Kunst- und Gedankenwechselautomat von PB Labs. Ein Fundstück, eine andere Richtung. Kostenlos, ohne Konto und ohne Tracking.">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https://images.metmuseum.org; connect-src 'self' https://collectionapi.metmuseum.org; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>SERENDIPITRON · PB Labs</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="SERENDIPITRON">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#controls">Zum Automaten</a>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="PB Labs, Startseite"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 29 9.5v13L16 30 3 22.5v-13Z"/><path d="m9 20 7-12 7 12M12 16h8"/></svg><span>PB LABS<span class="brand-sub">Independent instruments</span></span></a>
+    <nav aria-label="Werkzeuge"><button class="top-button" id="collection-button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v14H4zM3 3h18v3H3zM9 10h6"/></svg>Wunderkammer</button><button class="icon-button" id="settings-button" aria-label="Einstellungen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16M8 3v6m8 0v6M9 15v6"/></svg></button></nav>
+  </header>
+  <main>
+    <p class="overline">Ein Fundstück. Eine andere Richtung.</p>
+    <section class="machine" aria-label="SERENDIPITRON, digitaler Kunstautomat">
+      <i class="screw s1" aria-hidden="true"></i><i class="screw s2" aria-hidden="true"></i><i class="screw s3" aria-hidden="true"></i><i class="screw s4" aria-hidden="true"></i>
+      <div class="machine-heading">
+        <div class="makers-line"><span>PB LABS · EST. 2026</span><span class="status-badge"><i aria-hidden="true"></i><span id="machine-state">WIRD EINGERICHTET</span></span></div>
+        <h1>SERENDIPITRON</h1>
+        <p class="subtitle">An instrument of curiosity</p>
+        <div class="ornament" aria-hidden="true"><span></span><b>✧</b><span></span></div>
+      </div>
+      <div class="instrument-body">
+        <fieldset class="compartments" id="controls">
+          <legend><span>01</span> Ein Fach wählen</legend>
+          <div class="category-grid" id="categories">
+            <button class="category" data-category="staunen" aria-pressed="false"><span class="category-icon">✧</span><span><strong>STAUNEN</strong><small>Die Welt ist seltsamer.</small></span><i aria-hidden="true"></i></button>
+            <button class="category" data-category="versinken" aria-pressed="false"><span class="category-icon">◉</span><span><strong>VERSINKEN</strong><small>Kunst, Klang &amp; Atmosphäre</small></span><i aria-hidden="true"></i></button>
+            <button class="category" data-category="andersdenken" aria-pressed="false"><span class="category-icon">⌘</span><span><strong>ANDERSDENKEN</strong><small>Ein anderer Blickwinkel</small></span><i aria-hidden="true"></i></button>
+            <button class="category" data-category="absurdistan" aria-pressed="false"><span class="category-icon">※</span><span><strong>ABSURDISTAN</strong><small>Durchaus unvernünftig.</small></span><i aria-hidden="true"></i></button>
+            <button class="category" data-category="verweilen" aria-pressed="false"><span class="category-icon">≋</span><span><strong>VERWEILEN</strong><small>Hier muss nichts passieren.</small></span><i aria-hidden="true"></i></button>
+            <button class="category selected" data-category="zufall" aria-pressed="true"><span class="category-icon">⚄</span><span><strong>ZUFALL</strong><small>Dem Unbekannten überlassen</small></span><i aria-hidden="true"></i></button>
+          </div>
+        </fieldset>
+        <div class="observation-window" aria-hidden="true">
+          <div class="porthole"><div class="porthole-rim"><div class="glass"><img src="./assets/curiosity.svg" alt="" width="460" height="460"><span class="glass-reflection"></span></div></div></div>
+          <div class="window-caption"><span class="tiny-star">✦</span><span id="dial-label">TERRA INCOGNITA</span><span class="tiny-star">✦</span></div>
+          <div class="gauge"><svg viewBox="0 0 240 70"><path d="M17 62a104 104 0 0 1 206 0"/><path class="gauge-ticks" d="m28 58-7-2m20-18-6-5m27-10-4-7m30 0-2-8m32 4V3m32 13 2-8m25 15 4-7m17 22 6-5m7 25 7-2"/><path id="gauge-needle" d="M120 62 56 28"/><circle cx="120" cy="62" r="5"/></svg><span>NEUGIER · OHNE ZIEL</span></div>
+        </div>
+        <div class="release-panel">
+          <div class="brass-note"><span>GEBRAUCHSHINWEIS</span><p>Man muss nicht aufhören zu denken.</p> <p>Man kann seinem Denken einen anderen Gegenstand anbieten.</p></div>
+          <div class="coin-mechanism"><span class="coin-step"><b>02</b> Etwas anderes zulassen</span><button id="draw-button" class="coin-button" disabled aria-label="Münze einwerfen und Fundstück ziehen"><span class="coin" aria-hidden="true"><span>PB</span><b>∞</b><small>CURIOSITY</small></span><span class="coin-slot" aria-hidden="true"></span><strong>Münze einwerfen</strong><small>symbolisch · kostenlos · immer da</small></button></div>
+          <button class="chaos-toggle" id="chaos-toggle" aria-pressed="false"><span class="toggle-track" aria-hidden="true"><i></i></span><span>CHAOS<small>2–3 Fundstücke. Eine neue Verbindung.</small></span></button>
+        </div>
+      </div>
+      <section class="output-section" aria-labelledby="output-label">
+        <div class="output-header"><h2 id="output-label"><span>03</span> Das Ausgabefach</h2><span id="output-status">OFFEN FÜR ZUFÄLLE</span></div>
+        <div class="output-tray" id="output-tray"><div class="tray-lip" aria-hidden="true"></div><div class="empty-tray" id="empty-tray"><span aria-hidden="true">✧</span><p>Hier landet etwas Unerwartetes.</p><small>Ein Fach wählen. Eine Münze einwerfen. Neugierig sein.</small></div><button class="ticket" id="ticket" hidden aria-label="Fundstück öffnen"><span class="ticket-symbol" id="ticket-symbol" aria-hidden="true">✧</span><span class="ticket-content"><small id="ticket-category"></small><strong id="ticket-title"></strong><span id="ticket-teaser"></span></span><span class="ticket-open">Fundstück öffnen</span></button></div>
+      </section>
+      <div class="machine-footer"><span>MECHANISMUS FÜR UNGEPLANTE ENTDECKUNGEN</span><span>PROTOTYP V0.1</span></div>
+    </section>
+    <p class="philosophy">„Eine Maschine, die deine Aufmerksamkeit nicht besitzen möchte.“</p>
+    <footer class="page-footer"><span>Kein Konto. Keine Werbung. Kein Müssen.</span><button class="text-button" id="about-button">Über den Automaten &amp; Datenschutz</button></footer>
+    <p class="notice" id="notice" role="status" aria-live="polite"></p>
+    <noscript><p class="fatal">Für diesen Automaten muss JavaScript eingeschaltet sein. Er benötigt keine Anmeldung und überträgt deine Wunderkammer nicht.</p></noscript>
+  </main>
+  <dialog id="reader" aria-labelledby="reader-title"><div class="dialog-top"><span id="reader-eyebrow">FUNDSTÜCK</span><button class="close-button" data-close="reader" aria-label="Fundstück schließen">×</button></div><div class="reader-body" id="reader-body"></div><div class="reader-actions"><button class="brass-button" id="save-button">In die Wunderkammer</button><button class="plain-button" data-close="reader">Zurück zum Automaten</button></div></dialog>
+  <dialog id="collection" aria-labelledby="collection-title"><div class="dialog-top"><span>DEINE PERSÖNLICHE SAMMLUNG</span><button class="close-button" data-close="collection" aria-label="Wunderkammer schließen">×</button></div><div class="dialog-content"><h2 id="collection-title">Die Wunderkammer</h2><p>Was du behalten möchtest, bleibt hier. Nur in diesem Browser.</p><label class="search-label" for="collection-search">Sammlung durchsuchen</label><input type="search" id="collection-search" placeholder="Titel, Thema, Text …" autocomplete="off"><div id="collection-items"></div><div class="pagination"><button class="plain-button" id="collection-prev">Vorige Seite</button><span id="collection-page"></span><button class="plain-button" id="collection-next">Nächste Seite</button></div><div class="collection-tools"><button class="text-button" id="export-button">Sammlung exportieren</button><label class="text-button import-label">Sammlung importieren<input type="file" id="import-input" accept="application/json,.json"></label></div><p class="small-print">Ein Export sichert deine Fundstücke als JSON-Datei. Beim Löschen von Browserdaten geht die lokale Sammlung verloren.</p></div></dialog>
+  <dialog id="settings" aria-labelledby="settings-title"><div class="dialog-top"><span>AM INSTRUMENT</span><button class="close-button" data-close="settings" aria-label="Einstellungen schließen">×</button></div><div class="dialog-content"><h2 id="settings-title">Die kleinen Stellschrauben</h2><label class="setting-row"><span>Mechanische Geräusche<small>Ein leises Klicken beim Einwerfen.</small></span><input type="checkbox" id="sound-setting" role="switch"></label><label class="setting-row"><span>Weniger Bewegung<small>Deine Systemeinstellung wird immer respektiert.</small></span><input type="checkbox" id="motion-setting" role="switch"></label><label class="setting-row"><span>Fenster zu offenen Sammlungen<small>Optional: Werke aus dem Metropolitan Museum live ergänzen. Erst beim Ziehen entstehen Anfragen an das Museum; beim Anzeigen eines Live-Bildes ebenfalls. Dabei wird deine IP-Adresse übertragen.</small></span><input type="checkbox" id="live-setting" role="switch"></label><p id="live-status" class="small-print">Aus. Die lokale Sammlung ist vollständig nutzbar.</p><p id="offline-status" class="small-print">Die Offline-Kopie wird geprüft.</p><hr><button class="text-button" id="reset-history">Gezogene Fundstücke wieder freigeben</button><p class="small-print">Die Wunderkammer bleibt erhalten. Nach Ausschöpfen eines Fachs mischt der Automat von selbst neu.</p><button class="text-button danger" id="clear-collection">Wunderkammer leeren</button><p id="storage-status" class="small-print"></p></div></dialog>
+  <dialog id="about" aria-labelledby="about-title"><div class="dialog-top"><span>PB LABS · EST. 2026</span><button class="close-button" data-close="about" aria-label="Information schließen">×</button></div><div class="dialog-content"><h2 id="about-title">Eine kleine Wunderkammer.</h2><p>Der SERENDIPITRON ist ein unabhängiges kreatives Experiment: Kunstautomat, Wissenschaftsinstrument und Einladung zum Abschweifen.</p><p>Du darfst nach einem Fundstück gehen. Du darfst es ungelesen zurücklassen. Hier gibt es nichts zu erreichen.</p><p>Die virtuelle Münze ist kostenlos, unbegrenzt und rein symbolisch. Dieser Automat ist keine Therapieanwendung und macht keine gesundheitlichen Versprechen.</p><h3>Was für ein Fund ist das?</h3><dl class="type-explainer"><dt>Tatsache</dt><dd>Nachprüfbare Aussage mit Quelle. Ein experimenteller Befund gilt zunächst unter den untersuchten Bedingungen.</dd><dt>Hypothese</dt><dd>Wissenschaftlicher Erklärungsansatz mit offener Reichweite.</dd><dt>Philosophische Interpretation</dt><dd>Ein Gedankenangebot, keine bewiesene Erklärung.</dd><dt>Kreative Assoziation</dt><dd>Eine bewusst hergestellte Verbindung, auch im CHAOS-Modus.</dd><dt>Fiktion</dt><dd>Eine erfundene Miniatur oder ein originales poetisches Fragment.</dd></dl><h3>Quellen &amp; Bilder</h3><p><span id="database-count">Mindestens 120</span> redaktionell zusammengestellte Fundstücke liegen direkt im Automaten. Sachtexte sind eigens formuliert; Quellen stehen am jeweiligen Fund. Eigene Illustrationen sind als solche kenntlich. Museumsbilder tragen Herkunft und Rechtehinweis. Musik wird ausschließlich auf legalen externen Anbieterseiten geöffnet, niemals automatisch abgespielt; manche bieten Hörproben statt ganzer Aufnahmen.</p><p>Live-Funde kommen optional und ungeprüft als Katalogmetadaten vom Metropolitan Museum of Art. Es gibt keine KI-Generierung und keine autonome Recherche. CHAOS verbindet vorhandene Funde mit transparenten Textregeln.</p><h3>Datenschutz</h3><p>Kein Tracking, keine Konten, keine Profile, keine Werbung. Einstellungen, zuletzt gezogene IDs und deine Wunderkammer bleiben in localStorage dieses Browsers. Gespeicherte Inhalte werden nicht synchronisiert. Standardmäßig lädt die App nur eigene Dateien.</p><p>Beim Besuch verarbeitet GitHub als Hosting-Anbieter technisch Verbindungsdaten. Optionale Live-Abfragen, Live-Bilder und bewusst geöffnete externe Links übertragen Verbindungsdaten an deren Anbieter. Exporte bleiben bei dir; es gibt keinen Upload.</p><p>Die App speichert ihre eigenen Dateien für spätere Offline-Besuche. Beim allerersten Laden wird eine Verbindung benötigt. Externe Musik und Quellen brauchen Internet.</p><p class="small-print">Inhaltsstand: 27. November 2026 · PB Labs · Prototyp v0.1</p></div></dialog>
+</body>
+</html>
