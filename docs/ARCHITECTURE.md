@@ -49,3 +49,12 @@ Neue Adapter müssen standardmäßig deaktiviert bleiben, ihre Datenübertragung
 ## Grenzen
 
 localStorage hat browserabhängige Grenzen. Die Sammlung ist technisch auf 1500 Pakete begrenzt; beim früheren Erreichen der Speicherquote gibt es einen sichtbaren Hinweis und Export bleibt möglich. Die Grenze ist keine Nutzungsaufgabe. Importdateien dürfen höchstens 2 MB groß sein. Es gibt keine Geräte-Synchronisierung.
+
+
+## v0.2: lokales Begriffswerk
+
+`js/synthesator.js` enthält alle Wortbausteine und reine Generatorfunktionen. `termAt(index)` adressiert den Kombinationsraum ohne große vorgenerierte Liste. `synthesize(seen, rng)` vermeidet die letzten 32 Generator-IDs; ein injizierbarer Zufallsgeber macht Randfälle testbar. Stabile IDs verhindern doppelte Ablagen desselben Titels. Beispiele erscheinen mit 30 % Wahrscheinlichkeit. Innerhalb eines Titels sind sie fest zugeordnet.
+
+Die UI aktiviert das Modul ausschließlich bei `selected === 'absurdistan'` und `settings.synth === true`. `draw` akzeptiert optional den ersten Fund für CHAOS; weitere Funde kommen weiterhin aus anderen vorhandenen Fächern. Generierte Stücke erfüllen das bestehende `fiction`-Schema und ergänzen `generator` und `termParts`; HTML wird ausschließlich über textContent aufgebaut. Kein dynamisches eval, Netzwerkzugriff oder KI-Dienst im Generator. Speicher- und Exportversion bleiben 1. Die neuen Metadaten werden bei Import auf Typen und Grenzen geprüft.
+
+JS/CSS-Einstiege und Modulimporte tragen `?v=0.2.0`. Das Offline-Manifest enthält kanonische und versionierte Ressourcen. Der bestehende v0.1-Worker erhält dadurch beim Upgrade neue Modulantworten statt seiner alten Cache-Einträge; der neue Cache bleibt auf den Projektpfad begrenzt.

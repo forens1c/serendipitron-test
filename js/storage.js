@@ -1,6 +1,6 @@
-import { validDraw } from './engine.js';
+import { validDraw } from './engine.js?v=0.2.0';
 export const STORAGE_KEY = 'pblabs.serendipitron.v1';
-const fresh = () => ({ version: 1, settings: { sound: false, motion: false, live: false }, seen: [], collection: [] });
+const fresh = () => ({ version: 1, settings: { sound: false, motion: false, live: false, synth: false }, seen: [], collection: [] });
 export function normalize(value) {
   const state = fresh();
   if (!value || value.version !== 1) return state;

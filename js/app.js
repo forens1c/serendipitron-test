@@ -1,6 +1,7 @@
-import { CATEGORIES, KINDS, draw, random, safeUrl, safeImage, validPiece } from './engine.js';
-import { createStore, parseImport } from './storage.js';
-import { createMuseumProvider } from './providers.js';
+import { synthesize, synthEnabled, INSTITUTE } from './synthesator.js?v=0.2.0';
+import { CATEGORIES, KINDS, draw, random, safeUrl, safeImage, validPiece } from './engine.js?v=0.2.0';
+import { createStore, parseImport } from './storage.js?v=0.2.0';
+import { createMuseumProvider } from './providers.js?v=0.2.0';
 
 const $ = id => document.getElementById(id);
 let local;
@@ -35,6 +36,11 @@ function updateSettings() {
   $('live-status').textContent = store.state.settings.live ? (liveMessage || 'An. Bei VERSINKEN und ZUFALL können Museumswerke hinzukommen. Eine fehlgeschlagene Anfrage führt zurück zu den lokalen Fundstücken.') : 'Aus. Die lokale Sammlung ist vollständig nutzbar.';
   $('live-draw-button').hidden = !store.state.settings.live;
 }
+function updateSynthUI() {
+  $('synth-panel').hidden = selected !== 'absurdistan';
+  $('synth-toggle').setAttribute('aria-pressed', String(store.state.settings.synth));
+  $('synth-reels').hidden = !store.state.settings.synth;
+}
 function playMechanism() {
   if (!store.state.settings.sound) return;
   try {
@@ -57,6 +63,8 @@ function setBusy(value) {
   $('ticket').hidden = value || !current;
   $('empty-tray').hidden = !value && !!current;
   $('live-draw-button').disabled = value;
+  $('synth-toggle').disabled = value;
+  $('synth-reels').classList.toggle('rolling', value && synthEnabled(selected, store.state.settings));
   document.querySelector('.machine').classList.toggle('dispensing', value);
   $('machine-state').textContent = value ? 'EIN MOMENT DER NEUGIER' : 'BEREIT FÜR NEUGIER';
   $('output-status').textContent = value ? 'DAS WERK SETZT SICH IN GANG' : 'OFFEN FÜR ZUFÄLLE';
@@ -65,7 +73,8 @@ function setBusy(value) {
 function dispense(result) {
   current = result;
   const first = result.pieces[0], multi = result.mode === 'chaos';
-  $('ticket-category').textContent = multi ? `CHAOS · ${result.pieces.length} FUNDE · KREATIVE ASSOZIATION` : `${CATEGORIES[first.category].name} · ${KINDS[first.kind]}`;
+  $('ticket-category').textContent = multi ? `CHAOS · ${result.pieces.length} FUNDE · KREATIVE ASSOZIATION` : `${CATEGORIES[first.category].name} · ${first.generator ? 'Sprachsatire' : KINDS[first.kind]}`;
+  if (first.generator) [...$('synth-reels').children].forEach((reel, i) => { reel.textContent = first.termParts[i]; });
   $('ticket-title').textContent = multi ? 'Eine unwahrscheinliche Nachbarschaft' : first.title;
   $('ticket-teaser').textContent = multi ? result.pieces.map(p => p.title).join(' + ') : first.teaser;
   $('ticket-symbol').textContent = multi ? '※' : CATEGORIES[first.category].symbol;
@@ -101,7 +110,7 @@ async function runDraw(forceLive = false) {
         notify('Das Museumsfenster ist gerade zu. Ein lokales Fundstück kommt stattdessen.');
       } finally { liveController = null; }
     }
-    result ||= draw(items, category, wantsChaos, seen);
+    result ||= draw(items, category, wantsChaos, seen, random, !forceLive && synthEnabled(category, store.state.settings) ? synthesize(seen) : null);
     persist();
     await pause(reduced() ? 0 : 720);
     setBusy(false); dispense(result);
@@ -120,7 +129,10 @@ function kindTag(kind) {
 }
 function renderPiece(piece, headingTag = 'h2') {
   const fragment = document.createDocumentFragment();
-  fragment.append(kindTag(piece.kind));
+  const tag = kindTag(piece.kind);
+  if (piece.generator) tag.textContent = 'Sprachsatire · Fiktion';
+  fragment.append(tag);
+  if (piece.generator) fragment.append(node('p', 'synth-institute', INSTITUTE));
   const title = node(headingTag, '', piece.title);
   if (headingTag === 'h2') title.id = 'reader-title';
   fragment.append(title, node('p', 'lead', piece.teaser));
@@ -189,7 +201,7 @@ function renderCollection() {
   if (!filtered.length) container.append(node('p', 'empty-collection', query ? 'Zu diesem Wort liegt hier noch nichts.' : 'Noch ein leeres Regal. Auch das hat seinen Reiz.'));
   for (const entry of [...filtered].reverse().slice(page * 8, page * 8 + 8)) {
     const row = node('div', 'collection-entry'), open = node('button');
-    open.append(node('small', '', entry.mode === 'chaos' ? 'CHAOS · Kreative Assoziation' : CATEGORIES[entry.pieces[0].category].name), node('strong', '', entry.mode === 'chaos' ? entry.pieces.map(p => p.title).join(' + ') : entry.pieces[0].title));
+    open.append(node('small', '', entry.mode === 'chaos' ? 'CHAOS · Kreative Assoziation' : CATEGORIES[entry.pieces[0].category].name + (entry.pieces[0].generator ? ' · Sprachsatire' : '')), node('strong', '', entry.mode === 'chaos' ? entry.pieces.map(p => p.title).join(' + ') : entry.pieces[0].title));
     open.addEventListener('click', () => openReader(entry));
     const remove = node('button', 'remove-button', '×'); remove.setAttribute('aria-label', `${entry.pieces[0].title} aus der Wunderkammer entfernen`);
     remove.addEventListener('click', () => { store.state.collection = store.state.collection.filter(d => d.id !== entry.id); persist(); renderCollection(); });
@@ -201,10 +213,13 @@ function renderCollection() {
 }
 document.querySelectorAll('[data-category]').forEach(button => button.addEventListener('click', () => {
   selected = button.dataset.category;
+  updateSynthUI();
   document.querySelectorAll('[data-category]').forEach(b => { b.classList.toggle('selected', b === button); b.setAttribute('aria-pressed', String(b === button)); });
   $('dial-label').textContent = CATEGORIES[selected].dial;
   $('gauge-needle').style.transform = `rotate(${Object.keys(CATEGORIES).indexOf(selected) * 19}deg)`;
 }));
+$('synth-toggle').addEventListener('click', () => { store.state.settings.synth = !store.state.settings.synth; updateSynthUI(); persist(); });
+updateSynthUI();
 $('draw-button').addEventListener('click', () => runDraw());
 $('chaos-toggle').addEventListener('click', () => { chaos = !chaos; $('chaos-toggle').setAttribute('aria-pressed', String(chaos)); });
 $('ticket').addEventListener('click', () => current && openReader(current));
@@ -266,7 +281,7 @@ async function initialize() {
     $('machine-state').textContent = navigator.onLine ? 'BEREIT FÜR NEUGIER' : 'OFFLINE · NEUGIER BLEIBT';
     $('draw-button').disabled = false;
     persist();
-    if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js', { scope: './' }).then(registration => {
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js', { scope: './', updateViaCache: 'none' }).then(registration => {
       const update = () => { $('offline-status').textContent = registration.active ? 'Eine Offline-Kopie dieses Automaten ist bereit. Externe Quellen und Musik benötigen weiterhin Internet.' : 'Die Offline-Kopie wird angelegt. Dafür braucht der erste Besuch eine Verbindung.'; };
       const observe = worker => worker?.addEventListener('statechange', () => {
         if (worker.state === 'redundant' && !registration.active) $('offline-status').textContent = 'Die Offline-Kopie konnte hier nicht angelegt werden. Mit einer Verbindung bleibt der Automat nutzbar.';

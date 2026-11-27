@@ -46,8 +46,9 @@ export function connect(pieces, rng = random) {
   const extra = pieces.length === 3 ? ` ${titles[2]} wäre das Fenster dieses ausgedachten Raums.` : '';
   return { basis: 'Ausdrücklich imaginäre Montage · feste Textregeln', text: choose(prompts, rng) + extra };
 }
-export function draw(items, category, chaos, seen, rng = random) {
-  const first = drawOne(items, category, seen, rng);
+export function draw(items, category, chaos, seen, rng = random, firstPiece = null) {
+  if (firstPiece && (!validPiece(firstPiece) || (category !== "zufall" && firstPiece.category !== category))) throw new Error("Unpassender Zusatzfund.");
+  const first = firstPiece || drawOne(items, category, seen, rng);
   if (!chaos) return { id: first.id, mode: 'single', pieces: [first] };
   const count = rng() < .5 ? 2 : 3;
   const pieces = [first];
@@ -78,6 +79,7 @@ export function validPiece(p) {
     Array.isArray(p.tags) && p.tags.length <= 15 && p.tags.every(x => typeof x === 'string' && x.length < 100) &&
     Array.isArray(p.sources) && p.sources.length <= 10 && p.sources.every(s => typeof s.label === 'string' && s.label.length < 350 && safeUrl(s.url)) &&
     (!p.image || (safeImage(p.image.src) && typeof p.image.credit === 'string' && p.image.credit.length < 1000)) &&
+    (!p.generator || (p.generator === 'terminology-v1' && p.kind === 'fiction' && p.category === 'absurdistan' && Array.isArray(p.termParts) && p.termParts.length === 3 && p.termParts.every(x => typeof x === 'string' && x.length > 0 && x.length < 100))) &&
     (!p.media || (safeUrl(p.media.url) && typeof p.media.label === 'string' && p.media.label.length < 300));
 }
 export function validDraw(d) {

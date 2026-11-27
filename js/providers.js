@@ -1,4 +1,4 @@
-import { random, choose, safeUrl, safeImage, validPiece } from './engine.js';
+import { random, choose, safeUrl, safeImage, validPiece } from './engine.js?v=0.2.0';
 
 // Adapter contract for future curators: next(seen, rng, signal) -> validated Piece.
 // This adapter retrieves catalogue metadata; it does not research or generate text.

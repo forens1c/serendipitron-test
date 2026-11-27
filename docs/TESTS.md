@@ -48,8 +48,19 @@ Die automatisierten Provider- und Offline-Tests verwenden kontrollierte Antworte
 
 Faktentexte wurden mit verlinkten Primär- bzw. institutionellen Quellen abgeglichen; philosophische Einordnungen stützen sich auf Fachreferenzen, Fiktion ist als solche markiert. 14 Museumseinträge und ihre Open-Access-Bilder wurden direkt abgerufen und lokal bereitgestellt. Ein zusätzlicher technischer HTTP-Stichlauf umfasste 77 Quellen-URLs: 52 HTTP-200-Antworten, daneben Zugriffsbeschränkungen, eine 202-Antwort und ein anschließend korrigierter veralteter ESA-Link. Eine 403-Antwort dieses Abrufwegs beweist keinen weltweit kaputten Link; entsprechende Inhalte waren über die Recherche zugänglich. Zwei ergänzende Belege wurden danach hinzugefügt. Kein automatischer HTTP-Test kann die Wahrheit jeder Formulierung beweisen.
 
-## Bekannte Grenzen und v0.2
+## Bekannte Grenzen und nächste Schritte
 
 Die Inhalte sind ein endlicher redaktioneller Katalog. Live-Daten sind ungeprüfte Museumskatalogdaten und benötigen eine Verbindung. Die Wunderkammer synchronisiert nicht zwischen Geräten; externe Live-Bilder sind nicht Bestandteil des Offline-Archivs oder des JSON-Exports. Bei vollständigem Speicher kann nur die laufende Sitzung erhalten bleiben.
 
-Für v0.2: echte iPhone-/Safari-Tests und VoiceOver, weitere kuratierte Inhaltspakete, mehr unterschiedliche CHAOS-Verknüpfungen mit spezifischen redaktionellen Brücken sowie ein geprüftes, optionales NASA-Bildfenster. Eine KI-Kuration wäre ein eigenständiger späterer Entwicklungsschritt mit nachvollziehbarer Quellen- und Rechteprüfung.
+Für v0.3: echte iPhone-/Safari-Tests und VoiceOver, weitere kuratierte Inhaltspakete, mehr unterschiedliche CHAOS-Verknüpfungen mit spezifischen redaktionellen Brücken sowie ein geprüftes, optionales NASA-Bildfenster. Eine KI-Kuration wäre ein eigenständiger späterer Entwicklungsschritt mit nachvollziehbarer Quellen- und Rechteprüfung.
+
+
+## Erweiterungsprüfung v0.2 · 27.11.2026
+
+`npm run build`, `npm run check` und `npm test` erfolgreich: **36 Tests**, darunter 9 zusätzliche Generator-, Kompatibilitäts- und Cache-Tests. Alle 24.576 Titel vollständig auf Eindeutigkeit und gültige Datenstruktur geprüft; Adjektivendungen für alle 32 Stämme und alle 24 Kopfsubstantive geprüft. Weitere Fälle: gewünschtes Beispiel, gelegentliche Beispiele, Wiederholungsvermeidung selbst bei konstantem Zufallsgeber, Wiederaufnahme gespeicherter Historie, standardmäßig deaktiviertes Modul nur in ABSURDISTAN, Übernahme des v0.1-Speichers, Export/Import mit alten und neuen Funden, CHAOS mit verschiedenen Kategorien und Abweisung manipulierter Generator-Metadaten. Die vorhandenen 27 Tests bestehen weiterhin.
+
+Browser-Vorschau in Chromium: Zuschalten, Münze, Leseransicht mit Satirehinweis, Speicherung und Neuladen erfolgreich. Zwei bereits vorhandene Sammlungsstücke waren danach weiterhin vorhanden. CHAOS kombinierte generierte Begriffe mit zwei bzw. drei Funden aus verschiedenen Fächern. Einstellung für reduzierte Bewegung ließ sich einschalten. Bei 337 CSS-Pixeln kein horizontaler Überlauf: Dokument 337/337, Leser 297/297 Pixel. Das ist eine schmale Desktop-Browseransicht, kein echter iPhone-Test.
+
+Die Inhaltsdatenbank wurde per SHA-256 vor/nach der Änderung auf unveränderten Inhalt geprüft. v0.1 bleibt in der Git-Historie bei `ed2db809e965e43ad1e4cc0cf83c336957d3ace3` erhalten. Keine anderen Repositorys geändert.
+
+Für diese Erweiterung nicht durchgeführt: echte Safari-/iPhone-Prüfung, Hörprüfung, VoiceOver, erneuter Live-Museumsabruf und echter Offline-Wiederbesuch. Die vorhandenen isolierten Provider- und Worker-Tests bestehen; eine Offline-Ende-zu-Ende-Garantie wird daraus nicht abgeleitet. Der frühere Prototypbericht oben dokumentiert gesonderte v0.1-Prüfungen.

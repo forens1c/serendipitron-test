@@ -12,7 +12,7 @@ for (const dir of ['assets', 'js', 'data']) {
   }
 }
 files.push('./data/offline-files.json');
-await writeFile(path.join(root, 'data/offline-files.json'), JSON.stringify(files.map(f => f.startsWith('./') ? f : `./${f}`), null, 2) + '\n');
+await writeFile(path.join(root, 'data/offline-files.json'), JSON.stringify([...files.map(f => f.startsWith('./') ? f : `./${f}`), ...files.filter(f => /\.(js|css)$/.test(f) && f !== 'sw.js').map(f => `${f.startsWith('./') ? f : `./${f}`}?v=0.2.0`)], null, 2) + '\n');
 const hash = createHash('sha256');
 for (const file of files.filter(f => f !== 'sw.js').sort()) hash.update(await readFile(path.join(root, file)));
 const swPath = path.join(root, 'sw.js');

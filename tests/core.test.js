@@ -61,7 +61,7 @@ test('Einstellungen und Sammlung überleben eine neue Store-Instanz', () => {
   const b = createStore(mem); assert.equal(b.state.settings.motion, true); assert.equal(b.state.collection.length, 1);
 });
 test('Neue Installation aktiviert weder Geräusche noch Live-Abfragen', () => {
-  const store = createStore(memory()); assert.deepEqual(store.state.settings, { sound: false, motion: false, live: false });
+  const store = createStore(memory()); assert.deepEqual(store.state.settings, { sound: false, motion: false, live: false, synth: false });
 });
 test('Defektes localStorage blockiert den Automaten nicht', () => {
   const bad = { getItem() { throw Error(); }, setItem() { throw Error(); } };

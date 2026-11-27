@@ -18,10 +18,10 @@ const credits = JSON.parse(await readFile(path.join(root, 'data/image-credits.js
 assert.equal(credits.length, 14);
 for (const c of credits) { assert.equal(c.isPublicDomain, true); await access(path.join(root, c.file)); }
 const offline = JSON.parse(await readFile(path.join(root, 'data/offline-files.json'), 'utf8'));
-for (const file of offline) { assert(file.startsWith('./') && !file.includes('..')); await access(path.join(root, file)); }
+for (const file of offline) { assert(file.startsWith('./') && !file.includes('..')); await access(path.join(root, file.split('?')[0])); }
 for (const file of await readdir(path.join(root, 'assets'))) assert(offline.includes(`./assets/${file}`), `Offline-Datei fehlt: ${file}`);
 const html = await readFile(path.join(root, 'index.html'), 'utf8');
-for (const match of html.matchAll(/(?:src|href)="(\.\/[^"#]+)"/g)) if (match[1] !== './') await access(path.join(root, match[1]));
+for (const match of html.matchAll(/(?:src|href)="(\.\/[^"#]+)"/g)) if (match[1] !== './') await access(path.join(root, match[1].split('?')[0]));
 assert(!/<script[^>]+src="https?:/.test(html), 'Keine externen Skripte');
 assert(html.includes('prefers') || (await readFile(path.join(root, 'style.css'), 'utf8')).includes('prefers-reduced-motion'));
 console.log(`${data.items.length} valide Funde · 14 CC0-Museumsbilder · ${offline.length} geprüfte Offline-Dateien · relative Pfade OK`);

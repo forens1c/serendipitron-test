@@ -33,7 +33,14 @@
   "./js/engine.js",
   "./js/providers.js",
   "./js/storage.js",
+  "./js/synthesator.js",
   "./data/fundstuecke.json",
   "./data/image-credits.json",
-  "./data/offline-files.json"
+  "./data/offline-files.json",
+  "./style.css?v=0.2.0",
+  "./js/app.js?v=0.2.0",
+  "./js/engine.js?v=0.2.0",
+  "./js/providers.js?v=0.2.0",
+  "./js/storage.js?v=0.2.0",
+  "./js/synthesator.js?v=0.2.0"
 ]

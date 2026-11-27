@@ -1,7 +1,7 @@
 // Only same-origin, application-owned files. External media and APIs are excluded.
 const PREFIX = `serendipitron:${new URL(self.registration.scope).pathname}:`;
-const BUILD_ID = '0b9e9ecfe782';
-const CACHE = `${PREFIX}v0.1.0-${BUILD_ID}`;
+const BUILD_ID = '58e6a10653dc';
+const CACHE = `${PREFIX}v0.2.0-${BUILD_ID}`;
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const manifest = await fetch(new URL('./data/offline-files.json', self.registration.scope), { cache: 'no-store' });
