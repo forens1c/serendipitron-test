@@ -4,7 +4,8 @@ import path from 'node:path';
 import { createHash } from 'node:crypto';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const top = ['index.html', 'style.css', 'manifest.webmanifest', 'sw.js', '.nojekyll'];
-const files = [...top];
+// .nojekyll is a deployment marker, not a runtime resource to precache.
+const files = top.filter(file => file !== '.nojekyll');
 for (const dir of ['assets', 'js', 'data']) {
   for (const entry of await readdir(path.join(root, dir))) {
     if (entry !== 'offline-files.json') files.push(`./${dir}/${entry}`);

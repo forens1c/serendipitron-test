@@ -268,9 +268,13 @@ async function initialize() {
     persist();
     if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js', { scope: './' }).then(registration => {
       const update = () => { $('offline-status').textContent = registration.active ? 'Eine Offline-Kopie dieses Automaten ist bereit. Externe Quellen und Musik benötigen weiterhin Internet.' : 'Die Offline-Kopie wird angelegt. Dafür braucht der erste Besuch eine Verbindung.'; };
+      const observe = worker => worker?.addEventListener('statechange', () => {
+        if (worker.state === 'redundant' && !registration.active) $('offline-status').textContent = 'Die Offline-Kopie konnte hier nicht angelegt werden. Mit einer Verbindung bleibt der Automat nutzbar.';
+        else update();
+      });
       update();
-      registration.installing?.addEventListener('statechange', update);
-      registration.addEventListener('updatefound', () => { registration.installing?.addEventListener('statechange', update); update(); });
+      observe(registration.installing);
+      registration.addEventListener('updatefound', () => { observe(registration.installing); update(); });
     }).catch(() => { $('offline-status').textContent = 'Offline-Aufbewahrung ist in diesem Browser gerade nicht verfügbar. Für einen neuen Besuch wird Internet benötigt.'; });
     else $('offline-status').textContent = 'Dieser Browser unterstützt keine Offline-Kopie. Der Automat funktioniert mit einer Verbindung.';
   } catch {

@@ -3,7 +3,6 @@
   "./style.css",
   "./manifest.webmanifest",
   "./sw.js",
-  "./.nojekyll",
   "./assets/apple-touch-icon.png",
   "./assets/curiosity.svg",
   "./assets/favicon.svg",

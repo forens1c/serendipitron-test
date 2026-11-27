@@ -1,6 +1,6 @@
 // Only same-origin, application-owned files. External media and APIs are excluded.
 const PREFIX = `serendipitron:${new URL(self.registration.scope).pathname}:`;
-const BUILD_ID = 'e504f48a377d';
+const BUILD_ID = '0b9e9ecfe782';
 const CACHE = `${PREFIX}v0.1.0-${BUILD_ID}`;
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
