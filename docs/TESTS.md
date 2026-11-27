@@ -64,3 +64,10 @@ Browser-Vorschau in Chromium: Zuschalten, Münze, Leseransicht mit Satirehinweis
 Die Inhaltsdatenbank wurde per SHA-256 vor/nach der Änderung auf unveränderten Inhalt geprüft. v0.1 bleibt in der Git-Historie bei `ed2db809e965e43ad1e4cc0cf83c336957d3ace3` erhalten. Keine anderen Repositorys geändert.
 
 Für diese Erweiterung nicht durchgeführt: echte Safari-/iPhone-Prüfung, Hörprüfung, VoiceOver, erneuter Live-Museumsabruf und echter Offline-Wiederbesuch. Die vorhandenen isolierten Provider- und Worker-Tests bestehen; eine Offline-Ende-zu-Ende-Garantie wird daraus nicht abgeleitet. Der frühere Prototypbericht oben dokumentiert gesonderte v0.1-Prüfungen.
+
+
+### Prüfung der veröffentlichten v0.2
+
+GitHub-Pages-Deployment des Implementierungscommits `4d2df138767b25e21154936a7e7671335ff2e6b4` erfolgreich: [Workflow 46049729559](https://github.com/forens1c/serendipitron-test/actions/runs/46049729559). Auf `https://forens1c.github.io/serendipitron-test/` wurde der Upgrade aus einem noch geöffneten v0.1-Browserstand geprüft. Die beiden bestehenden Sammlungsstücke waren vor/nach dem Upgrade textgleich. Das neue Begriffswerk war anfangs ausgeschaltet. Nach Zuschalten erschien „Amtliche Gewissheitsperforation“ mit ausdrücklicher Satirekennzeichnung; Speichern, Neuladen und Sammlungssuche funktionierten. Die Schalterstellung überlebte Neuladen. Nach Ausschalten erschien wieder ein bisheriger ABSURDISTAN-Fund („Amt für unzuständige Wolken“). Wechsel zu STAUNEN blendete das Modul aus. CHAOS kombinierte anschließend einen generierten Begriff mit einem bisherigen Fund.
+
+Die Live-Seite zeigte eine bereitstehende Offline-Kopie an. Bei aktivierter Einstellung „Weniger Bewegung“ war der berechnete Animationsname der Begriffswalze `none`. Bei 337 CSS-Pixeln blieben Dokument (337/337) und geöffneter Leser (297/297) ohne horizontalen Überlauf. Die Soundeinstellung blieb ausgeschaltet; keine Hörprüfung. Die Browserprüfung veränderte nur lokale Testdaten des Prüf-Browsers, keine fremden Sammlungen.
